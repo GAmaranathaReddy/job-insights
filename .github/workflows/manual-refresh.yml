@@ -1,0 +1,85 @@
+name: Manual Data Refresh
+
+on:
+  # Allow manual trigger only
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'Scraping scope'
+        required: false
+        default: 'full'
+        type: choice
+        options:
+        - full
+        - quick
+        - test
+
+jobs:
+  manual-refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: |
+        npm ci
+        npm install puppeteer
+
+    - name: Setup Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser
+
+    - name: Run manual refresh
+      run: |
+        echo "🚀 Starting manual data refresh..."
+        echo "Scope: ${{ github.event.inputs.scope }}"
+
+        if [ "${{ github.event.inputs.scope }}" = "quick" ]; then
+          echo "Running quick refresh (limited scraping)..."
+          timeout 300 node scripts/scrape-jobs.ts || echo "Quick scraping completed"
+        elif [ "${{ github.event.inputs.scope }}" = "test" ]; then
+          echo "Running test refresh..."
+          node scripts/simple-test.js
+        else
+          echo "Running full refresh..."
+          node scripts/scrape-jobs.ts
+        fi
+
+        echo "Processing data..."
+        node scripts/test-aggregation.ts
+      env:
+        NODE_ENV: production
+        PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+
+    - name: Commit results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Manual Refresh Bot"
+        git add data/
+
+        if git diff --staged --quiet; then
+          echo "No changes detected"
+        else
+          git commit -m "📱 Manual refresh - ${{ github.event.inputs.scope }} - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "✅ Data updated successfully!"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy to Vercel (if configured)
+      run: |
+        echo "🚀 Triggering Vercel deployment..."
+        # This will trigger a deployment if you have Vercel connected to your repo
+        echo "Changes pushed - Vercel will auto-deploy if connected"
