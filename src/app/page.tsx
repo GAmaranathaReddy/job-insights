@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, Fragment, useRef } from 'react';
-import RefreshButton from '@/components/RefreshButton';
+import RefreshButton from '../components/RefreshButton';
 
 // Professional Icons (we'll use simple SVGs for now)
 const ChevronDownIcon = ({ className }: { className?: string }) => (
@@ -306,7 +306,6 @@ export default function Dashboard() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <RefreshButton />
               <button
                 onClick={() => setShowFilters(!showFilters)}
                 className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-xl transition-all duration-200 ${
@@ -426,23 +425,6 @@ export default function Dashboard() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Data Refresh Controls */}
-        <div className="mb-8">
-          {/* <RefreshButton /> */}
-          <div className="rounded-lg border-2 border-blue-500 bg-blue-50 p-4">
-            <h3 className="text-lg font-semibold text-gray-900 mb-3">Data Refresh</h3>
-            <p className="text-sm text-blue-700 mb-4">
-              On-demand refresh temporarily disabled. Working on fixing the component...
-            </p>
-            <button 
-              disabled 
-              className="px-4 py-2 bg-gray-300 text-gray-500 rounded-md cursor-not-allowed"
-            >
-              Refresh Now (Coming Soon)
-            </button>
-          </div>
-        </div>
-
         {/* Key Metrics */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
@@ -803,6 +785,11 @@ export default function Dashboard() {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Data Refresh Controls */}
+        <div className="mt-8 flex justify-center">
+          <RefreshButton />
         </div>
 
         {/* Footer */}
