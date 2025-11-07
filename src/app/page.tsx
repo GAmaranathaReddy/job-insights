@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, Fragment, useRef } from 'react';
+import RefreshButton from '@/components/RefreshButton';
 
 // Professional Icons (we'll use simple SVGs for now)
 const ChevronDownIcon = ({ className }: { className?: string }) => (
