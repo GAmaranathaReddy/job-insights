@@ -16,6 +16,8 @@
     "scrape": "tsx scripts/scrape-jobs.ts",
     "aggregate": "tsx scripts/aggregate-data.ts",
     "refresh": "tsx scripts/refresh-data.ts"
+    "scrape:github": "node scripts/github-actions-scraper.js",
+    "ci:scrape": "npm run scrape:github && npm run aggregate"
   },
   "dependencies": {
     "@next/font": "14.0.4",
