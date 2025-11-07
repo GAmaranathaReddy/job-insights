@@ -1,0 +1,186 @@
+name: Daily Job Data Collection
+
+on:
+  schedule:
+    # Run daily at 6:00 AM IST (00:30 UTC)
+    - cron: '30 0 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+env:
+  NODE_VERSION: '18'
+
+jobs:
+  scrape-and-aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          # Install Puppeteer dependencies for Ubuntu
+          sudo apt-get update
+          sudo apt-get install -y \
+            gconf-service \
+            libasound2 \
+            libatk1.0-0 \
+            libc6 \
+            libcairo2 \
+            libcups2 \
+            libdbus-1-3 \
+            libexpat1 \
+            libfontconfig1 \
+            libgcc1 \
+            libgconf-2-4 \
+            libgdk-pixbuf2.0-0 \
+            libglib2.0-0 \
+            libgtk-3-0 \
+            libnspr4 \
+            libpango-1.0-0 \
+            libpangocairo-1.0-0 \
+            libstdc++6 \
+            libx11-6 \
+            libx11-xcb1 \
+            libxcb1 \
+            libxcomposite1 \
+            libxcursor1 \
+            libxdamage1 \
+            libxext6 \
+            libxfixes3 \
+            libxi6 \
+            libxrandr2 \
+            libxrender1 \
+            libxss1 \
+            libxtst6 \
+            ca-certificates \
+            fonts-liberation \
+            libappindicator1 \
+            libnss3 \
+            lsb-release \
+            xdg-utils \
+            wget
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      - name: Run job scraping
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
+          PUPPETEER_EXECUTABLE_PATH: '/usr/bin/google-chrome-stable'
+        run: |
+          echo "🚀 Starting job scraping process..."
+          npm run scrape
+        continue-on-error: true
+
+      - name: Validate scraped data
+        run: |
+          if [ -f "data/dashboard-data.json" ]; then
+            echo "✅ Data file exists"
+            # Check if file is valid JSON
+            node -e "JSON.parse(require('fs').readFileSync('data/dashboard-data.json', 'utf8'))"
+            echo "✅ Data file is valid JSON"
+            # Check data size
+            DATA_SIZE=$(stat -c%s "data/dashboard-data.json")
+            if [ $DATA_SIZE -lt 100 ]; then
+              echo "❌ Data file too small: $DATA_SIZE bytes"
+              exit 1
+            fi
+            echo "✅ Data file size: $DATA_SIZE bytes"
+          else
+            echo "❌ Data file not found"
+            exit 1
+          fi
+
+      - name: Generate data summary
+        run: |
+          echo "📊 Generating data summary..."
+          node -e "
+            const data = JSON.parse(require('fs').readFileSync('data/dashboard-data.json', 'utf8'));
+            console.log('📈 Data Summary:');
+            console.log('Total Jobs:', data.summary.totalJobs);
+            console.log('Total Companies:', data.summary.totalCompanies);
+            console.log('Top 5 Technologies:');
+            data.technologies.slice(0, 5).forEach((tech, i) => {
+              console.log(\`  \${i+1}. \${tech.name}: \${tech.count} jobs (\${tech.percentage}%)\`);
+            });
+            console.log('Top 5 Cities:');
+            data.cities.slice(0, 5).forEach((city, i) => {
+              console.log(\`  \${i+1}. \${city.name}: \${city.count} jobs (\${city.percentage}%)\`);
+            });
+          "
+
+      - name: Update data files
+        run: |
+          # Set git config
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Add timestamp to commit message
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S IST')
+
+          # Check if there are changes to commit
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git add data/
+            git commit -m "📊 Daily job data update - $TIMESTAMP
+
+            $(node -e "
+              const data = JSON.parse(require('fs').readFileSync('data/dashboard-data.json', 'utf8'));
+              console.log('Jobs:', data.summary.totalJobs);
+              console.log('Companies:', data.summary.totalCompanies);
+              console.log('Top Tech:', data.technologies[0]?.name || 'N/A');
+              console.log('Top City:', data.cities[0]?.name || 'N/A');
+            ")"
+
+            echo "✅ Changes committed"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+
+      - name: Create deployment trigger
+        run: |
+          # Create a simple file to trigger Vercel deployment
+          echo "{\"updated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > deployment-trigger.json
+
+      - name: Commit deployment trigger
+        run: |
+          git add deployment-trigger.json
+          git commit -m "🚀 Trigger deployment - $(date '+%Y-%m-%d %H:%M:%S IST')" || echo "No deployment trigger changes"
+          git push || echo "Push failed"
+
+  notify-success:
+    needs: scrape-and-aggregate
+    runs-on: ubuntu-latest
+    if: success()
+    steps:
+      - name: Success notification
+        run: |
+          echo "✅ Daily job data collection completed successfully!"
+          echo "📊 Dashboard will be updated shortly at your Vercel deployment"
+
+  notify-failure:
+    needs: scrape-and-aggregate
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Failure notification
+        run: |
+          echo "❌ Daily job data collection failed!"
+          echo "Please check the workflow logs for details"
