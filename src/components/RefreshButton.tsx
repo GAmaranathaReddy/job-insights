@@ -137,13 +137,6 @@ export default function RefreshButton() {
           </div>
         )}
 
-        {status?.nextScheduledUpdate && (
-          <div className="flex justify-between">
-            <span>Next Scheduled:</span>
-            <span>{formatTime(status.nextScheduledUpdate)}</span>
-          </div>
-        )}
-
         {status?.progress !== undefined && status.isRunning && (
           <div className="space-y-1">
             <div className="flex justify-between">
@@ -198,7 +191,7 @@ export default function RefreshButton() {
         <div className="flex items-start space-x-2">
           <AlertCircle className="h-4 w-4 mt-0.5 flex-shrink-0" />
           <div>
-            <strong>On-demand refresh:</strong> Manually update job data from Naukri and LinkedIn. 
+            <strong>On-demand refresh:</strong> Manually update job data from Naukri and LinkedIn.
             Rate limited to 3 requests per 5 minutes. Process takes 10-15 minutes to complete.
           </div>
         </div>
