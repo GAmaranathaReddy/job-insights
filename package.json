@@ -14,7 +14,8 @@
     "test:watch": "jest --watch",
     "analyze": "cross-env ANALYZE=true next build",
     "scrape": "tsx scripts/scrape-jobs.ts",
-    "aggregate": "tsx scripts/aggregate-data.ts"
+    "aggregate": "tsx scripts/aggregate-data.ts",
+    "refresh": "tsx scripts/refresh-data.ts"
   },
   "dependencies": {
     "@next/font": "14.0.4",
