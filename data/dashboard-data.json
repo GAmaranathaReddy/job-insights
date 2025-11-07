@@ -1,0 +1,497 @@
+{
+  "summary": {
+    "totalJobs": 1250,
+    "totalCompanies": 85,
+    "totalSkills": 125,
+    "lastUpdated": "2024-11-07T10:30:00.000Z",
+    "dataVersion": "1.0.0"
+  },
+  "technologies": [
+    {
+      "name": "JavaScript",
+      "count": 340,
+      "percentage": 27.2,
+      "avgSalary": 1200000,
+      "cities": [
+        { "name": "Bangalore", "count": 120 },
+        { "name": "Mumbai", "count": 95 },
+        { "name": "Delhi", "count": 75 },
+        { "name": "Hyderabad", "count": 50 }
+      ],
+      "experienceLevels": [
+        { "level": "1-3 years", "count": 150 },
+        { "level": "4-6 years", "count": 120 },
+        { "level": "7+ years", "count": 70 }
+      ]
+    },
+    {
+      "name": "Python",
+      "count": 285,
+      "percentage": 22.8,
+      "avgSalary": 1350000,
+      "cities": [
+        { "name": "Bangalore", "count": 110 },
+        { "name": "Hyderabad", "count": 85 },
+        { "name": "Mumbai", "count": 90 }
+      ],
+      "experienceLevels": [
+        { "level": "1-3 years", "count": 120 },
+        { "level": "4-6 years", "count": 105 },
+        { "level": "7+ years", "count": 60 }
+      ]
+    },
+    {
+      "name": "React",
+      "count": 220,
+      "percentage": 17.6,
+      "avgSalary": 1180000,
+      "cities": [
+        { "name": "Bangalore", "count": 95 },
+        { "name": "Mumbai", "count": 70 },
+        { "name": "Pune", "count": 55 }
+      ],
+      "experienceLevels": [
+        { "level": "1-3 years", "count": 95 },
+        { "level": "4-6 years", "count": 85 },
+        { "level": "7+ years", "count": 40 }
+      ]
+    },
+    {
+      "name": "Java",
+      "count": 180,
+      "percentage": 14.4,
+      "avgSalary": 1250000,
+      "cities": [
+        { "name": "Bangalore", "count": 75 },
+        { "name": "Mumbai", "count": 55 },
+        { "name": "Delhi", "count": 50 }
+      ],
+      "experienceLevels": [
+        { "level": "1-3 years", "count": 70 },
+        { "level": "4-6 years", "count": 70 },
+        { "level": "7+ years", "count": 40 }
+      ]
+    },
+    {
+      "name": "Node.js",
+      "count": 165,
+      "percentage": 13.2,
+      "avgSalary": 1150000,
+      "cities": [
+        { "name": "Bangalore", "count": 70 },
+        { "name": "Mumbai", "count": 50 },
+        { "name": "Pune", "count": 45 }
+      ],
+      "experienceLevels": [
+        { "level": "1-3 years", "count": 75 },
+        { "level": "4-6 years", "count": 60 },
+        { "level": "7+ years", "count": 30 }
+      ]
+    }
+  ],
+  "cities": [
+    {
+      "name": "Bangalore",
+      "count": 385,
+      "percentage": 30.8,
+      "avgSalary": 1275000,
+      "topTechnologies": [
+        { "name": "JavaScript", "count": 120 },
+        { "name": "Python", "count": 110 },
+        { "name": "React", "count": 95 },
+        { "name": "Java", "count": 75 },
+        { "name": "Node.js", "count": 70 }
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "count": 245,
+      "percentage": 19.6,
+      "avgSalary": 1150000,
+      "topTechnologies": [
+        { "name": "JavaScript", "count": 95 },
+        { "name": "Python", "count": 90 },
+        { "name": "React", "count": 70 },
+        { "name": "Java", "count": 55 },
+        { "name": "Node.js", "count": 50 }
+      ]
+    },
+    {
+      "name": "Delhi",
+      "count": 195,
+      "percentage": 15.6,
+      "avgSalary": 1100000,
+      "topTechnologies": [
+        { "name": "JavaScript", "count": 75 },
+        { "name": "Java", "count": 65 },
+        { "name": "Python", "count": 55 },
+        { "name": "React", "count": 45 },
+        { "name": "Angular", "count": 40 }
+      ]
+    },
+    {
+      "name": "Hyderabad",
+      "count": 175,
+      "percentage": 14.0,
+      "avgSalary": 1080000,
+      "topTechnologies": [
+        { "name": "Python", "count": 85 },
+        { "name": "JavaScript", "count": 50 },
+        { "name": "Java", "count": 45 },
+        { "name": "React", "count": 35 },
+        { "name": "C#", "count": 30 }
+      ]
+    },
+    {
+      "name": "Pune",
+      "count": 125,
+      "percentage": 10.0,
+      "avgSalary": 1050000,
+      "topTechnologies": [
+        { "name": "React", "count": 55 },
+        { "name": "Node.js", "count": 45 },
+        { "name": "JavaScript", "count": 40 },
+        { "name": "Python", "count": 35 },
+        { "name": "Angular", "count": 25 }
+      ]
+    }
+  ],
+  "experienceLevels": [
+    {
+      "level": "1-3 years",
+      "count": 485,
+      "percentage": 38.8,
+      "avgSalary": 950000,
+      "topTechnologies": [
+        { "name": "JavaScript", "count": 150 },
+        { "name": "Python", "count": 120 },
+        { "name": "React", "count": 95 },
+        { "name": "Node.js", "count": 75 },
+        { "name": "Java", "count": 70 }
+      ]
+    },
+    {
+      "level": "4-6 years",
+      "count": 425,
+      "percentage": 34.0,
+      "avgSalary": 1450000,
+      "topTechnologies": [
+        { "name": "JavaScript", "count": 120 },
+        { "name": "Python", "count": 105 },
+        { "name": "React", "count": 85 },
+        { "name": "Java", "count": 70 },
+        { "name": "Node.js", "count": 60 }
+      ]
+    },
+    {
+      "level": "7+ years",
+      "count": 340,
+      "percentage": 27.2,
+      "avgSalary": 1850000,
+      "topTechnologies": [
+        { "name": "Python", "count": 70 },
+        { "name": "JavaScript", "count": 70 },
+        { "name": "Java", "count": 65 },
+        { "name": "React", "count": 40 },
+        { "name": "AWS", "count": 35 }
+      ]
+    }
+  ],
+  "trends": {
+    "daily": [
+      { "date": "2024-11-01", "totalJobs": 45, "topTechnology": "JavaScript", "topCity": "Bangalore" },
+      { "date": "2024-11-02", "totalJobs": 52, "topTechnology": "Python", "topCity": "Mumbai" },
+      { "date": "2024-11-03", "totalJobs": 48, "topTechnology": "React", "topCity": "Bangalore" },
+      { "date": "2024-11-04", "totalJobs": 55, "topTechnology": "JavaScript", "topCity": "Delhi" },
+      { "date": "2024-11-05", "totalJobs": 42, "topTechnology": "Python", "topCity": "Hyderabad" },
+      { "date": "2024-11-06", "totalJobs": 58, "topTechnology": "JavaScript", "topCity": "Bangalore" },
+      { "date": "2024-11-07", "totalJobs": 61, "topTechnology": "React", "topCity": "Mumbai" }
+    ],
+    "weekly": [
+      { "week": "2024-W44", "totalJobs": 285, "growth": 8.5 },
+      { "week": "2024-W45", "totalJobs": 310, "growth": 8.8 },
+      { "week": "2024-W46", "totalJobs": 295, "growth": -4.8 }
+    ],
+    "monthly": [
+      { "month": "2024-09", "totalJobs": 1180, "growth": 5.2 },
+      { "month": "2024-10", "totalJobs": 1240, "growth": 5.1 },
+      { "month": "2024-11", "totalJobs": 1250, "growth": 0.8 }
+    ]
+  },
+  "companies": [
+    {
+      "name": "TCS",
+      "totalJobs": 85,
+      "topTechnologies": ["Java", "JavaScript", "Python"],
+      "locations": ["Mumbai", "Bangalore", "Chennai"]
+    },
+    {
+      "name": "Infosys",
+      "totalJobs": 72,
+      "topTechnologies": ["Python", "React", "Node.js"],
+      "locations": ["Bangalore", "Hyderabad", "Pune"]
+    },
+    {
+      "name": "Wipro",
+      "totalJobs": 65,
+      "topTechnologies": ["JavaScript", "Angular", "AWS"],
+      "locations": ["Bangalore", "Delhi", "Mumbai"]
+    },
+    {
+      "name": "HCL Technologies",
+      "totalJobs": 58,
+      "topTechnologies": ["Java", "Python", "React"],
+      "locations": ["Delhi", "Mumbai", "Bangalore"]
+    },
+    {
+      "name": "Tech Mahindra",
+      "totalJobs": 45,
+      "topTechnologies": ["JavaScript", "C#", "Angular"],
+      "locations": ["Pune", "Hyderabad", "Mumbai"]
+    }
+  ],
+  "jobTitles": [
+    {
+      "title": "Full Stack Developer",
+      "count": 185,
+      "percentage": 14.8,
+      "avgSalary": 1250000,
+      "experienceRange": "2-5 years",
+      "topTechnologies": ["JavaScript", "React", "Node.js", "Python"],
+      "topCompanies": ["TCS", "Infosys", "Wipro"],
+      "topCities": ["Bangalore", "Mumbai", "Delhi"]
+    },
+    {
+      "title": "Software Engineer",
+      "count": 165,
+      "percentage": 13.2,
+      "avgSalary": 1100000,
+      "experienceRange": "1-4 years",
+      "topTechnologies": ["Java", "Python", "JavaScript", "C++"],
+      "topCompanies": ["Infosys", "TCS", "HCL Technologies"],
+      "topCities": ["Bangalore", "Hyderabad", "Mumbai"]
+    },
+    {
+      "title": "Frontend Developer",
+      "count": 142,
+      "percentage": 11.4,
+      "avgSalary": 1150000,
+      "experienceRange": "1-3 years",
+      "topTechnologies": ["React", "JavaScript", "Angular", "Vue.js"],
+      "topCompanies": ["Wipro", "Tech Mahindra", "TCS"],
+      "topCities": ["Mumbai", "Bangalore", "Pune"]
+    },
+    {
+      "title": "Backend Developer",
+      "count": 128,
+      "percentage": 10.2,
+      "avgSalary": 1300000,
+      "experienceRange": "2-6 years",
+      "topTechnologies": ["Python", "Java", "Node.js", "Go"],
+      "topCompanies": ["TCS", "Infosys", "HCL Technologies"],
+      "topCities": ["Bangalore", "Delhi", "Hyderabad"]
+    },
+    {
+      "title": "Data Scientist",
+      "count": 95,
+      "percentage": 7.6,
+      "avgSalary": 1850000,
+      "experienceRange": "2-5 years",
+      "topTechnologies": ["Python", "R", "Machine Learning", "SQL"],
+      "topCompanies": ["Infosys", "TCS", "Wipro"],
+      "topCities": ["Bangalore", "Mumbai", "Delhi"]
+    },
+    {
+      "title": "DevOps Engineer",
+      "count": 88,
+      "percentage": 7.0,
+      "avgSalary": 1650000,
+      "experienceRange": "3-7 years",
+      "topTechnologies": ["AWS", "Docker", "Kubernetes", "Python"],
+      "topCompanies": ["Wipro", "HCL Technologies", "Tech Mahindra"],
+      "topCities": ["Bangalore", "Delhi", "Mumbai"]
+    },
+    {
+      "title": "Mobile App Developer",
+      "count": 75,
+      "percentage": 6.0,
+      "avgSalary": 1200000,
+      "experienceRange": "1-4 years",
+      "topTechnologies": ["React Native", "Flutter", "Swift", "Kotlin"],
+      "topCompanies": ["Tech Mahindra", "TCS", "Infosys"],
+      "topCities": ["Mumbai", "Bangalore", "Pune"]
+    },
+    {
+      "title": "UI/UX Designer",
+      "count": 68,
+      "percentage": 5.4,
+      "avgSalary": 950000,
+      "experienceRange": "1-3 years",
+      "topTechnologies": ["Figma", "Adobe XD", "Sketch", "Photoshop"],
+      "topCompanies": ["Wipro", "Infosys", "Tech Mahindra"],
+      "topCities": ["Bangalore", "Mumbai", "Delhi"]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "count": 62,
+      "percentage": 5.0,
+      "avgSalary": 2100000,
+      "experienceRange": "3-6 years",
+      "topTechnologies": ["Python", "TensorFlow", "PyTorch", "AWS"],
+      "topCompanies": ["TCS", "Infosys", "HCL Technologies"],
+      "topCities": ["Bangalore", "Hyderabad", "Mumbai"]
+    },
+    {
+      "title": "QA Engineer",
+      "count": 55,
+      "percentage": 4.4,
+      "avgSalary": 850000,
+      "experienceRange": "1-4 years",
+      "topTechnologies": ["Selenium", "Java", "Python", "Cypress"],
+      "topCompanies": ["HCL Technologies", "TCS", "Wipro"],
+      "topCities": ["Delhi", "Mumbai", "Bangalore"]
+    },
+    {
+      "title": "Product Manager",
+      "count": 48,
+      "percentage": 3.8,
+      "avgSalary": 2500000,
+      "experienceRange": "4-8 years",
+      "topTechnologies": ["Analytics", "SQL", "Product Strategy", "Agile"],
+      "topCompanies": ["Infosys", "Wipro", "TCS"],
+      "topCities": ["Mumbai", "Bangalore", "Delhi"]
+    },
+    {
+      "title": "Cloud Architect",
+      "count": 42,
+      "percentage": 3.4,
+      "avgSalary": 2800000,
+      "experienceRange": "5-10 years",
+      "topTechnologies": ["AWS", "Azure", "Google Cloud", "Terraform"],
+      "topCompanies": ["TCS", "Infosys", "Wipro"],
+      "topCities": ["Bangalore", "Delhi", "Mumbai"]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Frontend",
+      "totalJobs": 485,
+      "avgSalary": 1180000,
+      "topSkills": [
+        { "name": "React", "count": 220, "percentage": 45.4 },
+        { "name": "JavaScript", "count": 340, "percentage": 70.1 },
+        { "name": "TypeScript", "count": 165, "percentage": 34.0 },
+        { "name": "Angular", "count": 125, "percentage": 25.8 },
+        { "name": "Vue.js", "count": 85, "percentage": 17.5 }
+      ],
+      "growthTrend": 8.5,
+      "demandLevel": "High"
+    },
+    {
+      "category": "Backend",
+      "totalJobs": 420,
+      "avgSalary": 1350000,
+      "topSkills": [
+        { "name": "Node.js", "count": 185, "percentage": 44.0 },
+        { "name": "Python", "count": 285, "percentage": 67.9 },
+        { "name": "Java", "count": 195, "percentage": 46.4 },
+        { "name": "Spring Boot", "count": 145, "percentage": 34.5 },
+        { "name": "Django", "count": 95, "percentage": 22.6 }
+      ],
+      "growthTrend": 12.3,
+      "demandLevel": "High"
+    },
+    {
+      "category": "Cloud",
+      "totalJobs": 285,
+      "avgSalary": 1650000,
+      "topSkills": [
+        { "name": "AWS", "count": 165, "percentage": 57.9 },
+        { "name": "Azure", "count": 125, "percentage": 43.9 },
+        { "name": "Docker", "count": 145, "percentage": 50.9 },
+        { "name": "Kubernetes", "count": 95, "percentage": 33.3 },
+        { "name": "Google Cloud", "count": 75, "percentage": 26.3 }
+      ],
+      "growthTrend": 15.2,
+      "demandLevel": "High"
+    },
+    {
+      "category": "Data Science",
+      "totalJobs": 195,
+      "avgSalary": 1850000,
+      "topSkills": [
+        { "name": "Python", "count": 285, "percentage": 146.2 },
+        { "name": "Machine Learning", "count": 125, "percentage": 64.1 },
+        { "name": "TensorFlow", "count": 85, "percentage": 43.6 },
+        { "name": "Pandas", "count": 95, "percentage": 48.7 },
+        { "name": "SQL", "count": 155, "percentage": 79.5 }
+      ],
+      "growthTrend": 22.8,
+      "demandLevel": "High"
+    },
+    {
+      "category": "Mobile",
+      "totalJobs": 165,
+      "avgSalary": 1200000,
+      "topSkills": [
+        { "name": "React Native", "count": 95, "percentage": 57.6 },
+        { "name": "Flutter", "count": 75, "percentage": 45.5 },
+        { "name": "Swift", "count": 45, "percentage": 27.3 },
+        { "name": "Kotlin", "count": 55, "percentage": 33.3 },
+        { "name": "Android", "count": 85, "percentage": 51.5 }
+      ],
+      "growthTrend": 18.5,
+      "demandLevel": "Medium"
+    }
+  ],
+  "skillCombinations": [
+    {
+      "skills": ["React", "Node.js"],
+      "count": 145,
+      "avgSalary": 1250000,
+      "commonJobTitles": ["Full Stack Developer", "Frontend Developer", "Software Engineer"]
+    },
+    {
+      "skills": ["Python", "Machine Learning"],
+      "count": 125,
+      "avgSalary": 1850000,
+      "commonJobTitles": ["Data Scientist", "ML Engineer", "AI Developer"]
+    },
+    {
+      "skills": ["AWS", "Docker"],
+      "count": 95,
+      "avgSalary": 1650000,
+      "commonJobTitles": ["DevOps Engineer", "Cloud Engineer", "Backend Developer"]
+    },
+    {
+      "skills": ["Java", "Spring Boot"],
+      "count": 85,
+      "avgSalary": 1400000,
+      "commonJobTitles": ["Backend Developer", "Software Engineer", "Java Developer"]
+    },
+    {
+      "skills": ["JavaScript", "TypeScript"],
+      "count": 165,
+      "avgSalary": 1200000,
+      "commonJobTitles": ["Frontend Developer", "Full Stack Developer", "Software Engineer"]
+    },
+    {
+      "skills": ["React", "TypeScript"],
+      "count": 135,
+      "avgSalary": 1300000,
+      "commonJobTitles": ["Frontend Developer", "React Developer", "UI Developer"]
+    },
+    {
+      "skills": ["Python", "Django"],
+      "count": 75,
+      "avgSalary": 1350000,
+      "commonJobTitles": ["Backend Developer", "Python Developer", "Web Developer"]
+    },
+    {
+      "skills": ["Kubernetes", "Docker"],
+      "count": 65,
+      "avgSalary": 1750000,
+      "commonJobTitles": ["DevOps Engineer", "Cloud Architect", "Platform Engineer"]
+    }
+  ]
+}
