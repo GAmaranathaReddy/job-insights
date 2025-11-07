@@ -10,14 +10,14 @@ const MAX_REQUESTS = 3; // Max 3 requests per 5 minutes
 function isRateLimited(ip: string): boolean {
   const now = Date.now();
   const windowStart = now - RATE_LIMIT_WINDOW;
-  
+
   if (!rateLimitMap.has(ip)) {
     rateLimitMap.set(ip, []);
   }
-  
+
   const requests = rateLimitMap.get(ip).filter((time: number) => time > windowStart);
   rateLimitMap.set(ip, requests);
-  
+
   return requests.length >= MAX_REQUESTS;
 }
 
@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
   try {
     // Get client IP for rate limiting
     const ip = request.ip || request.headers.get('x-forwarded-for') || 'unknown';
-    
+
     // Check rate limiting
     if (isRateLimited(ip)) {
       return NextResponse.json(
@@ -47,16 +47,33 @@ export async function POST(request: NextRequest) {
     // Add this request to rate limit tracking
     addRequest(ip);
 
-    // Check if we're in a server environment that supports child processes
-    const isServerless = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME;
-    
+    // Check if we're in a serverless environment that doesn't support child processes
+    const isProduction = process.env.NODE_ENV === 'production';
+    const isVercelProduction = process.env.VERCEL && process.env.VERCEL_ENV === 'production';
+    const isServerless = isVercelProduction || process.env.AWS_LAMBDA_FUNCTION_NAME;
+
     if (isServerless) {
       return NextResponse.json(
         {
-          error: 'On-demand scraping not available',
+          error: 'On-demand scraping not available in production',
           message: 'Web scraping runs automatically via GitHub Actions. Check back in a few hours for updated data.',
           lastUpdate: await getLastUpdateTime(),
-          nextScheduledUpdate: getNextScheduledUpdate()
+          nextScheduledUpdate: getNextScheduledUpdate(),
+          environment: 'serverless-production'
+        },
+        { status: 503 }
+      );
+    }
+
+    // Additional check for development environment
+    if (isProduction && !process.env.ALLOW_LOCAL_SCRAPING) {
+      return NextResponse.json(
+        {
+          error: 'On-demand scraping disabled in production',
+          message: 'For security and performance reasons, on-demand scraping is only available in development. Data updates automatically via GitHub Actions.',
+          lastUpdate: await getLastUpdateTime(),
+          nextScheduledUpdate: getNextScheduledUpdate(),
+          environment: 'production-local'
         },
         { status: 503 }
       );
@@ -101,11 +118,11 @@ export async function GET(request: NextRequest) {
     // Get current refresh status
     const lastUpdate = await getLastUpdateTime();
     const nextScheduled = getNextScheduledUpdate();
-    
+
     // Check if scraping is currently running (simple file-based check)
     const statusFile = path.join(process.cwd(), 'data', '.scraping-status');
     let isRunning = false;
-    
+
     try {
       const statusData = await fs.readFile(statusFile, 'utf-8');
       const status = JSON.parse(statusData);
@@ -115,17 +132,35 @@ export async function GET(request: NextRequest) {
       isRunning = false;
     }
 
+    // Check environment for refresh availability
+    const isProduction = process.env.NODE_ENV === 'production';
+    const isVercelProduction = process.env.VERCEL && process.env.VERCEL_ENV === 'production';
+    const isServerless = isVercelProduction || process.env.AWS_LAMBDA_FUNCTION_NAME;
+    
+    const canRefresh = !isRunning && !isServerless && !(isProduction && !process.env.ALLOW_LOCAL_SCRAPING);
+    
+    let message = 'Ready for on-demand refresh';
+    if (isRunning) {
+      message = 'Data refresh is currently in progress...';
+    } else if (isServerless) {
+      message = 'On-demand refresh not available in serverless environment';
+    } else if (isProduction && !process.env.ALLOW_LOCAL_SCRAPING) {
+      message = 'On-demand refresh disabled in production environment';
+    }
+
     return NextResponse.json({
       isRunning,
       lastUpdate,
       nextScheduledUpdate: nextScheduled,
-      canRefresh: !isRunning,
-      message: isRunning 
-        ? 'Data refresh is currently in progress...' 
-        : 'Ready for on-demand refresh'
-    });
-
-  } catch (error) {
+      canRefresh,
+      message,
+      environment: {
+        nodeEnv: process.env.NODE_ENV || 'development',
+        isVercel: !!process.env.VERCEL,
+        isServerless,
+        allowScraping: canRefresh
+      }
+    });  } catch (error) {
     console.error('Error getting refresh status:', error);
     return NextResponse.json(
       {
@@ -154,6 +189,6 @@ function getNextScheduledUpdate(): string {
   const tomorrow = new Date(now);
   tomorrow.setUTCDate(now.getUTCDate() + 1);
   tomorrow.setUTCHours(0, 30, 0, 0); // 00:30 UTC = 6:00 AM IST
-  
+
   return tomorrow.toISOString();
 }
