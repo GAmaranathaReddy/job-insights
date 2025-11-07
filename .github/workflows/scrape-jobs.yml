@@ -1,0 +1,99 @@
+name: Scrape Job Data
+
+on:
+  # Run automatically every 6 hours
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours at minute 0
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main branch (for testing)
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: |
+        npm ci
+        # Install Puppeteer with Chromium
+        npm install puppeteer
+
+    - name: Setup Chrome dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          fonts-liberation \
+          libappindicator3-1 \
+          libasound2 \
+          libatk-bridge2.0-0 \
+          libdrm2 \
+          libgtk-3-0 \
+          libnspr4 \
+          libnss3 \
+          libxcomposite1 \
+          libxdamage1 \
+          libxrandr2 \
+          xdg-utils \
+          libxss1 \
+          libgconf-2-4
+
+    - name: Run job scraping
+      run: |
+        echo "Starting job scraping process..."
+        node scripts/scrape-jobs.ts || node scripts/scrape-jobs.js
+      env:
+        NODE_ENV: production
+        PUPPETEER_EXECUTABLE_PATH: /opt/google/chrome/chrome
+
+    - name: Run data aggregation
+      run: |
+        echo "Processing scraped data..."
+        node scripts/test-aggregation.ts || node scripts/test-aggregation.js
+
+    - name: Update timestamp
+      run: |
+        echo "$(date -u)" > data/last-update.txt
+        echo "Data last updated: $(date -u)"
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git add -A
+
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-update job data - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Summary
+      run: |
+        echo "✅ Job scraping completed successfully!"
+        echo "📊 Data files updated in /data directory"
+        echo "🕐 Next scheduled run: in 6 hours"
+        ls -la data/
