@@ -1,0 +1,36 @@
+{
+  "name": "India Job Insights",
+  "short_name": "JobInsights",
+  "description": "Real-time insights into the Indian tech job market",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity", "business", "developer"],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
