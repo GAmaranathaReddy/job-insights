@@ -48,7 +48,7 @@
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.5.8",
     "@types/prop-types": "^15.7.13",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.0.0-rc.10",
     "cross-env": "^7.0.3",
     "eslint": "^8.53.0",
     "eslint-config-next": "14.0.4",
@@ -59,7 +59,7 @@
     "tsx": "^4.1.2"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "repository": {
     "type": "git",
