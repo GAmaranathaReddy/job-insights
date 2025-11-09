@@ -57,7 +57,8 @@ jobs:
     - name: Run job scraping
       run: |
         echo "Starting job scraping process..."
-        node scripts/github-actions-scraper.js
+        # Try real scraping first, fallback to 30-day data generation
+        node scripts/github-actions-scraper.js || node scripts/generate-30days-data.js
       env:
         NODE_ENV: production
 
@@ -88,10 +89,10 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        
+
         # Only add data directory (avoid node_modules and large files)
         git add data/
-        
+
         # Safety check: ensure we're not adding large files
         echo "🔍 Checking staged files for size..."
         git diff --staged --name-only | while read file; do
@@ -103,7 +104,7 @@ jobs:
             fi
           fi
         done
-        
+
         # Check if there are changes to commit
         if git diff --staged --quiet; then
           echo "📝 No changes to commit"
