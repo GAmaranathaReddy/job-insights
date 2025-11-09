@@ -17,6 +17,7 @@
     "aggregate": "tsx scripts/aggregate-data.ts",
     "refresh": "tsx scripts/refresh-data.ts",
     "scrape:github": "node scripts/github-actions-scraper.js",
+    "generate:30days": "node scripts/generate-30days-data.js",
     "ci:scrape": "npm run scrape:github && npm run aggregate"
   },
   "dependencies": {
