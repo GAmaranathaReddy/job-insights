@@ -19,9 +19,27 @@ const GITHUB_ACTIONS_CONFIG = {
     '--disable-setuid-sandbox',
     '--disable-dev-shm-usage',
     '--disable-accelerated-2d-canvas',
+    '--disable-gpu',
+    '--disable-features=VizDisplayCompositor',
+    '--run-all-compositor-stages-before-draw',
     '--no-first-run',
     '--no-zygote',
-    '--disable-gpu'
+    '--single-process',
+    '--disable-extensions',
+    '--disable-default-apps',
+    '--disable-background-timer-throttling',
+    '--disable-backgrounding-occluded-windows',
+    '--disable-renderer-backgrounding',
+    '--disable-field-trial-config',
+    '--disable-back-forward-cache',
+    '--disable-ipc-flooding-protection',
+    '--disable-hang-monitor',
+    '--disable-prompt-on-repost',
+    '--disable-sync',
+    '--metrics-recording-only',
+    '--no-default-browser-check',
+    '--safebrowsing-disable-auto-update',
+    '--disable-client-side-phishing-detection'
   ]
 };
 
@@ -34,19 +52,61 @@ class GitHubActionsScraper {
 
   async init() {
     console.log('🚀 Initializing GitHub Actions scraper...');
+    console.log('🔧 Chrome args:', GITHUB_ACTIONS_CONFIG.args.join(' '));
 
     try {
-      this.browser = await puppeteer.launch({
+      // Check if we're in GitHub Actions environment
+      const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+      console.log('🏭 Environment: GitHub Actions =', isGitHubActions);
+
+      const launchOptions = {
         headless: GITHUB_ACTIONS_CONFIG.headless,
         args: GITHUB_ACTIONS_CONFIG.args,
-        timeout: 30000
-      });
+        timeout: 30000,
+        ignoreDefaultArgs: ['--disable-extensions']
+      };
+
+      // Try to find Chrome executable in GitHub Actions
+      if (isGitHubActions) {
+        const possiblePaths = [
+          '/usr/bin/google-chrome',
+          '/usr/bin/google-chrome-stable',
+          '/usr/bin/chromium-browser',
+          '/usr/bin/chromium'
+        ];
+
+        const fs = require('fs');
+        for (const chromePath of possiblePaths) {
+          if (fs.existsSync(chromePath)) {
+            console.log('🔍 Found Chrome at:', chromePath);
+            launchOptions.executablePath = chromePath;
+            break;
+          }
+        }
+      }
+
+      this.browser = await puppeteer.launch(launchOptions);
 
       console.log('✅ Browser launched successfully');
       return true;
     } catch (error) {
       console.error('❌ Failed to launch browser:', error.message);
-      return false;
+      console.error('🔍 Available Chrome binaries check failed');
+
+      // Try with minimal args as fallback
+      try {
+        console.log('🔄 Trying fallback configuration...');
+        this.browser = await puppeteer.launch({
+          headless: true,
+          args: ['--no-sandbox', '--disable-setuid-sandbox'],
+          timeout: 30000
+        });
+        console.log('✅ Browser launched with fallback config');
+        return true;
+      } catch (fallbackError) {
+        console.error('❌ Fallback launch also failed:', fallbackError.message);
+        return false;
+      }
     }
   }
 
