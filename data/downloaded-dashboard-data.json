@@ -1,17 +1,17 @@
 {
   "summary": {
     "totalJobs": 22,
-    "totalCompanies": 21,
+    "totalCompanies": 20,
     "totalSkills": 8,
-    "lastUpdated": "2025-11-19T01:50:46.327Z",
+    "lastUpdated": "2025-11-19T06:39:02.241Z",
     "dataVersion": "2.0.0"
   },
   "technologies": [
     {
-      "name": "Java",
+      "name": "Python",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 1121264,
+      "avgSalary": 1072737,
       "cities": [
         {
           "name": "Bangalore",
@@ -38,10 +38,10 @@
       ]
     },
     {
-      "name": "Python",
+      "name": "Java",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 1022336,
+      "avgSalary": 1118935,
       "cities": [
         {
           "name": "Bangalore",
@@ -71,7 +71,7 @@
       "name": "JavaScript",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1072711,
+      "avgSalary": 1057704,
       "cities": [
         {
           "name": "Bangalore",
@@ -101,7 +101,7 @@
       "name": "React",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 961607,
+      "avgSalary": 959551,
       "cities": [
         {
           "name": "Bangalore",
@@ -131,7 +131,7 @@
       "name": "Node.js",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 883136,
+      "avgSalary": 885967,
       "cities": [
         {
           "name": "Bangalore",
@@ -161,7 +161,7 @@
       "name": "Go",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 855375,
+      "avgSalary": 980949,
       "cities": [
         {
           "name": "Bangalore",
@@ -191,7 +191,7 @@
       "name": "PostgreSQL",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 902277,
+      "avgSalary": 1197220,
       "cities": [
         {
           "name": "Bangalore",
@@ -221,7 +221,7 @@
       "name": "Django",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1233832,
+      "avgSalary": 819092,
       "cities": [
         {
           "name": "Bangalore",
@@ -253,14 +253,14 @@
       "name": "Bangalore",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 905642,
+      "avgSalary": 1029017,
       "topTechnologies": [
         {
-          "name": "Java",
+          "name": "Python",
           "count": 0
         },
         {
-          "name": "Python",
+          "name": "Java",
           "count": 0
         },
         {
@@ -281,14 +281,14 @@
       "name": "Mumbai",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1144226,
+      "avgSalary": 1022886,
       "topTechnologies": [
         {
-          "name": "Java",
+          "name": "Python",
           "count": 0
         },
         {
-          "name": "Python",
+          "name": "Java",
           "count": 0
         },
         {
@@ -309,54 +309,12 @@
   "companies": [
     {
       "name": "BVM Web Solutions",
-      "count": 2,
-      "percentage": 9.1,
-      "avgSalary": 1387289,
+      "count": 3,
+      "percentage": 13.6,
+      "avgSalary": 1394877,
       "topTechnologies": [
-        "Java",
         "Python",
-        "JavaScript"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Leading Client",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1044103,
-      "topTechnologies": [
         "Java",
-        "Python",
-        "JavaScript"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Techavidus",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1061116,
-      "topTechnologies": [
-        "Java",
-        "Python",
         "JavaScript"
       ],
       "locations": [
@@ -374,73 +332,10 @@
       "name": "BrickWin Consultancy Services Private Limited",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1043580,
+      "avgSalary": 1101637,
       "topTechnologies": [
-        "Java",
         "Python",
-        "JavaScript"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "MNC's",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1137653,
-      "topTechnologies": [
         "Java",
-        "Python",
-        "JavaScript"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "MNC",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1217814,
-      "topTechnologies": [
-        "Java",
-        "Python",
-        "JavaScript"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "ti Steps",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1138323,
-      "topTechnologies": [
-        "Java",
-        "Python",
         "JavaScript"
       ],
       "locations": [
@@ -458,10 +353,73 @@
       "name": "Liangtuang Technologies",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1291801,
+      "avgSalary": 1364519,
       "topTechnologies": [
-        "Java",
         "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Index Infotech India",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1033193,
+      "topTechnologies": [
+        "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Techavidus",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1335574,
+      "topTechnologies": [
+        "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Interface Infosoft",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1042378,
+      "topTechnologies": [
+        "Python",
+        "Java",
         "JavaScript"
       ],
       "locations": [
@@ -479,10 +437,10 @@
       "name": "Titan Company",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1247125,
+      "avgSalary": 1098866,
       "topTechnologies": [
-        "Java",
         "Python",
+        "Java",
         "JavaScript"
       ],
       "locations": [
@@ -497,13 +455,13 @@
       ]
     },
     {
-      "name": "Newt Global",
+      "name": "MSCI Services",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1362656,
+      "avgSalary": 1320061,
       "topTechnologies": [
-        "Java",
         "Python",
+        "Java",
         "JavaScript"
       ],
       "locations": [
@@ -518,34 +476,13 @@
       ]
     },
     {
-      "name": "EYP Creations",
+      "name": "ShreeCom InfoTech India Pvt. Ltd.",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1062701,
+      "avgSalary": 1060991,
       "topTechnologies": [
-        "Java",
         "Python",
-        "JavaScript"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Softenger",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1063350,
-      "topTechnologies": [
         "Java",
-        "Python",
         "JavaScript"
       ],
       "locations": [
@@ -563,10 +500,10 @@
       "name": "Pyrotech Workspace Solutions",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1105648,
+      "avgSalary": 1157369,
       "topTechnologies": [
-        "Java",
         "Python",
+        "Java",
         "JavaScript"
       ],
       "locations": [
@@ -584,10 +521,10 @@
       "name": "Rhombus Infotech",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1178515,
+      "avgSalary": 1190228,
       "topTechnologies": [
-        "Java",
         "Python",
+        "Java",
         "JavaScript"
       ],
       "locations": [
@@ -605,10 +542,73 @@
       "name": "Impressive Star Softwares",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1181801,
+      "avgSalary": 1028188,
       "topTechnologies": [
-        "Java",
         "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Leading Client",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1202785,
+      "topTechnologies": [
+        "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Newt Global",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1392928,
+      "topTechnologies": [
+        "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "MNC's",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1304194,
+      "topTechnologies": [
+        "Python",
+        "Java",
         "JavaScript"
       ],
       "locations": [
@@ -628,56 +628,10 @@
       "title": "Software Developer",
       "count": 11,
       "percentage": 50,
-      "avgSalary": 1021813,
+      "avgSalary": 1371330,
       "topSkills": [
-        "Java",
         "Python",
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Software Developer (Fresher)",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1315849,
-      "topSkills": [
         "Java",
-        "Python",
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Software Developer Intern / Trainee",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1125957,
-      "topSkills": [
-        "Java",
-        "Python",
         "JavaScript",
         "React",
         "Node.js"
@@ -697,10 +651,10 @@
       "title": "Software Developers / Freshers / Trainees",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1123530,
+      "avgSalary": 1313553,
       "topSkills": [
-        "Java",
         "Python",
+        "Java",
         "JavaScript",
         "React",
         "Node.js"
@@ -720,102 +674,10 @@
       "title": "Software Developer Trainee / Intern",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1312313,
+      "avgSalary": 1397339,
       "topSkills": [
-        "Java",
         "Python",
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Software developer",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1097717,
-      "topSkills": [
         "Java",
-        "Python",
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Hiring For Software developer with Newt Global - Chennai",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1093930,
-      "topSkills": [
-        "Java",
-        "Python",
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Saas Software Developer",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1039957,
-      "topSkills": [
-        "Java",
-        "Python",
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Software Developer - Java",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1356520,
-      "topSkills": [
-        "Java",
-        "Python",
         "JavaScript",
         "React",
         "Node.js"
@@ -835,10 +697,148 @@
       "title": "Senior Software Developer (C#.net, SQL, ERP Software)",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1195827,
+      "avgSalary": 1279972,
       "topSkills": [
-        "Java",
         "Python",
+        "Java",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Software Developer Intern / Trainee",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1279945,
+      "topSkills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Software Developer - Java",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1332916,
+      "topSkills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Software developer",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1203372,
+      "topSkills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Software Developer (Fresher)",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1229406,
+      "topSkills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Hiring For Software developer with Newt Global - Chennai",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1117087,
+      "topSkills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Saas Software Developer",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1245062,
+      "topSkills": [
+        "Python",
+        "Java",
         "JavaScript",
         "React",
         "Node.js"
@@ -858,10 +858,10 @@
       "title": "Software Engineer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1085931,
+      "avgSalary": 1395511,
       "topSkills": [
-        "Java",
         "Python",
+        "Java",
         "JavaScript",
         "React",
         "Node.js"
@@ -881,10 +881,10 @@
       "title": "Full Stack Developer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1230358,
+      "avgSalary": 1224999,
       "topSkills": [
-        "Java",
         "Python",
+        "Java",
         "JavaScript",
         "React",
         "Node.js"
@@ -903,12 +903,12 @@
   ],
   "skills": [
     {
-      "name": "Java",
+      "name": "Python",
       "count": 2,
       "category": "Backend"
     },
     {
-      "name": "Python",
+      "name": "Java",
       "count": 2,
       "category": "Backend"
     },
@@ -945,52 +945,12 @@
   ],
   "rawJobs": [
     {
-      "title": "Software Developer (Fresher)",
-      "company": "Leading Client",
-      "location": "India",
-      "skills": "The ideal candidate should have a strong foundation in Computer Science & Engineering o...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer Intern / Trainee",
-      "company": "Techavidus",
-      "location": "India",
-      "skills": "Summary. Intern Requirements . A final year Student or Recent Graduate in Computer Scie...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
       "title": "Software Developers / Freshers / Trainees",
       "company": "BrickWin Consultancy Services Private Limited",
       "location": "India",
       "skills": "Bachelor / Masters degree in Computer Science (Preferable AIML) or Information Technolo...",
       "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "MNC's",
-      "location": "India",
-      "skills": "Design, develop, test deploy Java applications using modern frameworks tools Write clea...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "MNC",
-      "location": "India",
-      "skills": "Developing the application",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "ti Steps",
-      "location": "India",
-      "skills": "Knowledge of RESTful APIs and microservices architecture. . Hands-on experience with SQ...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
+      "scraped_at": "2025-11-19T06:39:02.175Z"
     },
     {
       "title": "Software Developer Trainee / Intern",
@@ -998,103 +958,7 @@
       "location": "India",
       "skills": "",
       "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software developer",
-      "company": "Titan Company",
-      "location": "India",
-      "skills": "Minimum 5 years of experience in brand management or a related fieldExperience with bra...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Hiring For Software developer with Newt Global - Chennai",
-      "company": "Newt Global",
-      "location": "India",
-      "skills": "Job Title: Python developer Experience: 2+ yearsLocation: Chennai Work location: Chenna...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "EYP Creations",
-      "location": "India",
-      "skills": "May require working in shifts (including nights, weekends, or holidays) depending on th...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "Softenger",
-      "location": "India",
-      "skills": "Bachelor s degree in Computer Science, Information Technology, Engineering, or related ...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "Pyrotech Workspace Solutions",
-      "location": "India",
-      "skills": "Pyrotech Workspace Solutions Pvt. Ltd is looking for Software Developer to join our dyn...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "BVM Web Solutions",
-      "location": "India",
-      "skills": "Disclaimer: This job description has been sourced from a public domain and may have bee...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "Rhombus Infotech",
-      "location": "India",
-      "skills": "RHOMBUS INFOTECH PVT LTD is looking for Software Developer to join our dynamic team and...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "Impressive Star Softwares",
-      "location": "India",
-      "skills": "University Degree in any Discipline(B.Tech/MCA/Bachelor s degree in Science/Maths/B.C...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Saas Software Developer",
-      "company": "BVM Web Solutions",
-      "location": "India",
-      "skills": "BVM Web Solutions Private Limited is looking for Saas Software Developer to join our dy...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "MSCI Services",
-      "location": "India",
-      "skills": "The application layer of Total Plan is built on modern engineering principles, leveragi...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "ShreeCom InfoTech India Pvt. Ltd.",
-      "location": "India",
-      "skills": ". Bachelors degree in Information Technology or related field . 2 years of overall IT e...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
-    },
-    {
-      "title": "Software Developer - Java",
-      "company": "Interface Infosoft",
-      "location": "India",
-      "skills": "He holds Bachelor of Engineering from VNIT, Nagpur and Master of Technology from IIT, R...",
-      "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
+      "scraped_at": "2025-11-19T06:39:02.175Z"
     },
     {
       "title": "Senior Software Developer (C#.net, SQL, ERP Software)",
@@ -1102,7 +966,143 @@
       "location": "India",
       "skills": "Able to work in US Shifts Experience in SQL DB Complex Queries (Triggers, Cursors and S...",
       "source": "Naukri",
-      "scraped_at": "2025-11-19T01:50:46.234Z"
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer Intern / Trainee",
+      "company": "Techavidus",
+      "location": "India",
+      "skills": "Summary. Intern Requirements . A final year Student or Recent Graduate in Computer Scie...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer - Java",
+      "company": "Interface Infosoft",
+      "location": "India",
+      "skills": "He holds Bachelor of Engineering from VNIT, Nagpur and Master of Technology from IIT, R...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software developer",
+      "company": "Titan Company",
+      "location": "India",
+      "skills": "Minimum 5 years of experience in brand management or a related fieldExperience with bra...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "MSCI Services",
+      "location": "India",
+      "skills": "The application layer of Total Plan is built on modern engineering principles, leveragi...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "ShreeCom InfoTech India Pvt. Ltd.",
+      "location": "India",
+      "skills": ". Bachelors degree in Information Technology or related field . 2 years of overall IT e...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Pyrotech Workspace Solutions",
+      "location": "India",
+      "skills": "Pyrotech Workspace Solutions Pvt. Ltd is looking for Software Developer to join our dyn...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Rhombus Infotech",
+      "location": "India",
+      "skills": "RHOMBUS INFOTECH PVT LTD is looking for Software Developer to join our dynamic team and...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Impressive Star Softwares",
+      "location": "India",
+      "skills": "University Degree in any Discipline(B.Tech/MCA/Bachelor s degree in Science/Maths/B.C...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer (Fresher)",
+      "company": "Leading Client",
+      "location": "India",
+      "skills": "The ideal candidate should have a strong foundation in Computer Science & Engineering o...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Hiring For Software developer with Newt Global - Chennai",
+      "company": "Newt Global",
+      "location": "India",
+      "skills": "Job Title: Python developer Experience: 2+ yearsLocation: Chennai Work location: Chenna...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "MNC's",
+      "location": "India",
+      "skills": "Design, develop, test deploy Java applications using modern frameworks tools Write clea...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "ti Steps",
+      "location": "India",
+      "skills": "Knowledge of RESTful APIs and microservices architecture. . Hands-on experience with SQ...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "EYP Creations",
+      "location": "India",
+      "skills": "May require working in shifts (including nights, weekends, or holidays) depending on th...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Softenger",
+      "location": "India",
+      "skills": "Bachelor s degree in Computer Science, Information Technology, Engineering, or related ...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "BVM Web Solutions",
+      "location": "India",
+      "skills": "Disclaimer: This job description has been sourced from a public domain and may have bee...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Saas Software Developer",
+      "company": "BVM Web Solutions",
+      "location": "India",
+      "skills": "BVM Web Solutions Private Limited is looking for Saas Software Developer to join our dy...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "BVM Web Solutions",
+      "location": "India",
+      "skills": "BVM Web Solutions Private Limited is looking for Software Developer to join our dynamic...",
+      "source": "Naukri",
+      "scraped_at": "2025-11-19T06:39:02.175Z"
     },
     {
       "title": "Software Engineer",
@@ -1110,7 +1110,7 @@
       "location": "Bangalore",
       "skills": "JavaScript, React, Node.js",
       "source": "LinkedIn",
-      "scraped_at": "2025-11-19T01:50:46.319Z"
+      "scraped_at": "2025-11-19T06:39:02.234Z"
     },
     {
       "title": "Full Stack Developer",
@@ -1118,7 +1118,7 @@
       "location": "Mumbai",
       "skills": "Python, Django, PostgreSQL",
       "source": "LinkedIn",
-      "scraped_at": "2025-11-19T01:50:46.319Z"
+      "scraped_at": "2025-11-19T06:39:02.234Z"
     }
   ]
 }
