@@ -3,7 +3,7 @@
     "totalJobs": 22,
     "totalCompanies": 22,
     "totalSkills": 12,
-    "lastUpdated": "2025-12-22T02:02:34.785Z",
+    "lastUpdated": "2025-12-22T06:44:11.543Z",
     "dataVersion": "2.0.0"
   },
   "technologies": [
@@ -11,7 +11,7 @@
       "name": "Go",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 1101157,
+      "avgSalary": 1041093,
       "cities": [
         {
           "name": "Bangalore",
@@ -41,7 +41,7 @@
       "name": "JavaScript",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 1258110,
+      "avgSalary": 1142141,
       "cities": [
         {
           "name": "Bangalore",
@@ -71,7 +71,7 @@
       "name": "Java",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 964950,
+      "avgSalary": 958068,
       "cities": [
         {
           "name": "Bangalore",
@@ -101,7 +101,7 @@
       "name": "PHP",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1187751,
+      "avgSalary": 863027,
       "cities": [
         {
           "name": "Bangalore",
@@ -131,7 +131,7 @@
       "name": "MySQL",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1142554,
+      "avgSalary": 896841,
       "cities": [
         {
           "name": "Bangalore",
@@ -161,7 +161,7 @@
       "name": "HTML",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 804159,
+      "avgSalary": 1013915,
       "cities": [
         {
           "name": "Bangalore",
@@ -191,7 +191,7 @@
       "name": "CSS",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1124266,
+      "avgSalary": 1052694,
       "cities": [
         {
           "name": "Bangalore",
@@ -221,7 +221,7 @@
       "name": "React",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 962282,
+      "avgSalary": 839451,
       "cities": [
         {
           "name": "Bangalore",
@@ -251,7 +251,7 @@
       "name": "Node.js",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1278224,
+      "avgSalary": 1083362,
       "cities": [
         {
           "name": "Bangalore",
@@ -281,7 +281,7 @@
       "name": "Python",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1080289,
+      "avgSalary": 1261231,
       "cities": [
         {
           "name": "Bangalore",
@@ -311,7 +311,7 @@
       "name": "PostgreSQL",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1213244,
+      "avgSalary": 1115643,
       "cities": [
         {
           "name": "Bangalore",
@@ -341,7 +341,7 @@
       "name": "Django",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 895863,
+      "avgSalary": 1057872,
       "cities": [
         {
           "name": "Bangalore",
@@ -373,7 +373,7 @@
       "name": "Bangalore",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 983137,
+      "avgSalary": 1047093,
       "topTechnologies": [
         {
           "name": "Go",
@@ -401,7 +401,7 @@
       "name": "Mumbai",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 956758,
+      "avgSalary": 1046854,
       "topTechnologies": [
         {
           "name": "Go",
@@ -431,7 +431,7 @@
       "name": "Oracle",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1127929,
+      "avgSalary": 1127335,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -452,7 +452,7 @@
       "name": "IBM",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1268626,
+      "avgSalary": 1174686,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -473,7 +473,7 @@
       "name": "Siemens",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1156125,
+      "avgSalary": 1068295,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -494,7 +494,7 @@
       "name": "TELUS International",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1088665,
+      "avgSalary": 1353342,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -515,7 +515,7 @@
       "name": "Exxon Mobil Corporation",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1168055,
+      "avgSalary": 1382460,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -536,7 +536,7 @@
       "name": "Ametek Instruments India",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1258875,
+      "avgSalary": 1065494,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -557,7 +557,7 @@
       "name": "Techsoft",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1021717,
+      "avgSalary": 1275377,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -578,7 +578,7 @@
       "name": "Nubax Data Labs",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1056495,
+      "avgSalary": 1077696,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -599,7 +599,7 @@
       "name": "Propel Technologies Inc",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1290729,
+      "avgSalary": 1190133,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -620,7 +620,7 @@
       "name": "CONFIDENTIAL",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1201831,
+      "avgSalary": 1081895,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -641,7 +641,7 @@
       "name": "Infomind India",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1330911,
+      "avgSalary": 1392810,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -662,28 +662,7 @@
       "name": "Datamatics",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1388783,
-      "topTechnologies": [
-        "Go",
-        "JavaScript",
-        "Java"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Skyraan Technologies (opc)",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1031570,
+      "avgSalary": 1146614,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -704,7 +683,7 @@
       "name": "Hexadecimal Software",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1044816,
+      "avgSalary": 1185293,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -725,7 +704,28 @@
       "name": "Spinks World",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1385205,
+      "avgSalary": 1304319,
+      "topTechnologies": [
+        "Go",
+        "JavaScript",
+        "Java"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Liangtuang Technologies",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1042961,
       "topTechnologies": [
         "Go",
         "JavaScript",
@@ -746,9 +746,9 @@
   "jobTitles": [
     {
       "title": "Software Developer",
-      "count": 8,
-      "percentage": 36.4,
-      "avgSalary": 1112637,
+      "count": 9,
+      "percentage": 40.9,
+      "avgSalary": 1273922,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -771,7 +771,7 @@
       "title": "Software Developer 5",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1095659,
+      "avgSalary": 1223108,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -794,7 +794,7 @@
       "title": "Software Developer Intern",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1007732,
+      "avgSalary": 1048463,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -817,7 +817,7 @@
       "title": "Software Developer ( C++, Multithreaded Programming)",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1355069,
+      "avgSalary": 1095318,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -840,7 +840,7 @@
       "title": "Software Developer High Performance Computing",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1221293,
+      "avgSalary": 1165568,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -863,7 +863,7 @@
       "title": "Junior Software Developer (Fresher)",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1042798,
+      "avgSalary": 1066641,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -886,7 +886,7 @@
       "title": "Software Developer - Fresher",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1292102,
+      "avgSalary": 1218974,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -909,7 +909,7 @@
       "title": "Fresher | Software Developer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1398398,
+      "avgSalary": 1291296,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -932,7 +932,7 @@
       "title": "Software Developer Trainee freshers",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1022998,
+      "avgSalary": 1271783,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -955,30 +955,7 @@
       "title": "Immediate openings For Software Developer - Fresher, Puducherry",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1226429,
-      "topSkills": [
-        "Go",
-        "JavaScript",
-        "Java",
-        "PHP",
-        "MySQL"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Training cum placement internship (Software Developer)",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1039067,
+      "avgSalary": 1232872,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -1001,7 +978,7 @@
       "title": "Software Developer Trainee / Intern",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1381315,
+      "avgSalary": 1286280,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -1024,7 +1001,7 @@
       "title": "Trainee Software Developer Fresher",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1110279,
+      "avgSalary": 1095891,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -1047,7 +1024,7 @@
       "title": "Software Engineer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1028014,
+      "avgSalary": 1339623,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -1070,7 +1047,7 @@
       "title": "Full Stack Developer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1117446,
+      "avgSalary": 1362234,
       "topSkills": [
         "Go",
         "JavaScript",
@@ -1159,7 +1136,7 @@
       "location": "India",
       "skills": "Exceptional analytic and problem-solving skills . Extensive experience in using, buildi...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer Intern",
@@ -1167,7 +1144,7 @@
       "location": "India",
       "skills": "We are looking for Frontend, Full Stack and QA/Test Automation Graduate hires with exce...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer ( C++, Multithreaded Programming)",
@@ -1175,7 +1152,7 @@
       "location": "India",
       "skills": "Embrace an open feedback culture, driving continuous improvement within the team. To be...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1183,7 +1160,7 @@
       "location": "India",
       "skills": "Assist in the creation and maintenance of front-end / back-end tools: You will gain exp...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer High Performance Computing",
@@ -1191,7 +1168,7 @@
       "location": "India",
       "skills": "Skills and Qualifications . Bachelors or Masters degree in Computer Science, Software E...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1199,7 +1176,7 @@
       "location": "India",
       "skills": "Develop ergonomic user interfaces for application software operating on Windows;   ...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Junior Software Developer (Fresher)",
@@ -1207,7 +1184,7 @@
       "location": "India",
       "skills": "Software engineers/developers create and develop software applications that allow peopl...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer - Fresher",
@@ -1215,7 +1192,7 @@
       "location": "India",
       "skills": ". Freshers graduate with 0-1 experienceBachelor s degree in Computer Science, Informati...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Fresher | Software Developer",
@@ -1223,7 +1200,7 @@
       "location": "India",
       "skills": "Fresher \\- 2026 batch pass\\-out . Expected Skill  . Proficient in any one of the progra...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer Trainee freshers",
@@ -1231,7 +1208,7 @@
       "location": "India",
       "skills": "require- Software Developer Salary 2.5 lpa to 4lpa work from home facility available An...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1239,7 +1216,7 @@
       "location": "India",
       "skills": ". Bachelors degree in Computer Science / IT/ECE or higher Experience of 0 to 3 years in...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Immediate openings For Software Developer - Fresher, Puducherry",
@@ -1247,15 +1224,7 @@
       "location": "India",
       "skills": "Immediate Opening for Fresher - Software Developer @ Datamatics Global Services Limited,",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
-    },
-    {
-      "title": "Training cum placement internship (Software Developer)",
-      "company": "Skyraan Technologies (opc)",
-      "location": "India",
-      "skills": "About the ProgramSkyraan Academy offers a Training-cum-Placement Internship for candida...",
-      "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1263,7 +1232,7 @@
       "location": "India",
       "skills": "",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1271,7 +1240,7 @@
       "location": "India",
       "skills": "Modifying software to fix errors, adapt it to new hardware, improve its performance, ...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer Trainee / Intern",
@@ -1279,7 +1248,7 @@
       "location": "India",
       "skills": "",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1287,7 +1256,7 @@
       "location": "India",
       "skills": "Education: Bsc, Msc, BCA, MCA, BE        Responsibilities:     Continuously upgrade kn...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Trainee Software Developer Fresher",
@@ -1295,7 +1264,7 @@
       "location": "India",
       "skills": "POST : Trainee Software Developer Fresher NO. OF VACANCY : 3 CITY : Vadodara DETAIL : a...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1303,7 +1272,7 @@
       "location": "India",
       "skills": "Skills Required  Proficient in PHP, Javascript, MySQL, AJAX, jQuery, CSS and HTML . Cos...",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Developer",
@@ -1311,7 +1280,15 @@
       "location": "India",
       "skills": "Fresher with 2021 to 2024 Pass out",
       "source": "Naukri",
-      "scraped_at": "2025-12-22T02:02:34.715Z"
+      "scraped_at": "2025-12-22T06:44:11.482Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Acciojob",
+      "location": "India",
+      "skills": "AccioJob is conducting a Walk-In Hiring Drive with Xebo.ai for the position of Software...",
+      "source": "Naukri",
+      "scraped_at": "2025-12-22T06:44:11.482Z"
     },
     {
       "title": "Software Engineer",
@@ -1319,7 +1296,7 @@
       "location": "Bangalore",
       "skills": "JavaScript, React, Node.js",
       "source": "LinkedIn",
-      "scraped_at": "2025-12-22T02:02:34.775Z"
+      "scraped_at": "2025-12-22T06:44:11.535Z"
     },
     {
       "title": "Full Stack Developer",
@@ -1327,7 +1304,7 @@
       "location": "Mumbai",
       "skills": "Python, Django, PostgreSQL",
       "source": "LinkedIn",
-      "scraped_at": "2025-12-22T02:02:34.775Z"
+      "scraped_at": "2025-12-22T06:44:11.535Z"
     }
   ]
 }
