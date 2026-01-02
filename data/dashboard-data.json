@@ -1,17 +1,17 @@
 {
   "summary": {
     "totalJobs": 22,
-    "totalCompanies": 20,
-    "totalSkills": 11,
-    "lastUpdated": "2026-01-02T12:52:38.870Z",
+    "totalCompanies": 22,
+    "totalSkills": 12,
+    "lastUpdated": "2026-01-02T18:39:00.583Z",
     "dataVersion": "2.0.0"
   },
   "technologies": [
     {
       "name": "JavaScript",
-      "count": 2,
-      "percentage": 9.1,
-      "avgSalary": 985810,
+      "count": 3,
+      "percentage": 13.6,
+      "avgSalary": 1041667,
       "cities": [
         {
           "name": "Bangalore",
@@ -25,11 +25,11 @@
       "experienceLevels": [
         {
           "level": "1-3 years",
-          "count": 0
+          "count": 1
         },
         {
           "level": "4-6 years",
-          "count": 0
+          "count": 1
         },
         {
           "level": "7+ years",
@@ -39,9 +39,39 @@
     },
     {
       "name": "Java",
+      "count": 3,
+      "percentage": 13.6,
+      "avgSalary": 1270433,
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ],
+      "experienceLevels": [
+        {
+          "level": "1-3 years",
+          "count": 1
+        },
+        {
+          "level": "4-6 years",
+          "count": 1
+        },
+        {
+          "level": "7+ years",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Go",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 896534,
+      "avgSalary": 1197072,
       "cities": [
         {
           "name": "Bangalore",
@@ -69,9 +99,9 @@
     },
     {
       "name": "HTML",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 805652,
+      "count": 2,
+      "percentage": 9.1,
+      "avgSalary": 1158233,
       "cities": [
         {
           "name": "Bangalore",
@@ -99,9 +129,9 @@
     },
     {
       "name": "CSS",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 846617,
+      "count": 2,
+      "percentage": 9.1,
+      "avgSalary": 1177317,
       "cities": [
         {
           "name": "Bangalore",
@@ -128,10 +158,40 @@
       ]
     },
     {
-      "name": "C#",
+      "name": "PHP",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 872198,
+      "avgSalary": 1134934,
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ],
+      "experienceLevels": [
+        {
+          "level": "1-3 years",
+          "count": 0
+        },
+        {
+          "level": "4-6 years",
+          "count": 0
+        },
+        {
+          "level": "7+ years",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "MySQL",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1169660,
       "cities": [
         {
           "name": "Bangalore",
@@ -161,7 +221,7 @@
       "name": "React",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1009873,
+      "avgSalary": 876500,
       "cities": [
         {
           "name": "Bangalore",
@@ -191,7 +251,7 @@
       "name": "Node.js",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1111026,
+      "avgSalary": 1171983,
       "cities": [
         {
           "name": "Bangalore",
@@ -221,37 +281,7 @@
       "name": "Python",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1106096,
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ],
-      "experienceLevels": [
-        {
-          "level": "1-3 years",
-          "count": 0
-        },
-        {
-          "level": "4-6 years",
-          "count": 0
-        },
-        {
-          "level": "7+ years",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Go",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 862944,
+      "avgSalary": 973169,
       "cities": [
         {
           "name": "Bangalore",
@@ -281,7 +311,7 @@
       "name": "PostgreSQL",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1187004,
+      "avgSalary": 1063757,
       "cities": [
         {
           "name": "Bangalore",
@@ -311,7 +341,7 @@
       "name": "Django",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1236448,
+      "avgSalary": 1161192,
       "cities": [
         {
           "name": "Bangalore",
@@ -343,8 +373,12 @@
       "name": "Bangalore",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 912547,
+      "avgSalary": 989665,
       "topTechnologies": [
+        {
+          "name": "Go",
+          "count": 0
+        },
         {
           "name": "JavaScript",
           "count": 0
@@ -359,10 +393,6 @@
         },
         {
           "name": "CSS",
-          "count": 0
-        },
-        {
-          "name": "C#",
           "count": 0
         }
       ]
@@ -371,8 +401,12 @@
       "name": "Mumbai",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1142208,
+      "avgSalary": 984907,
       "topTechnologies": [
+        {
+          "name": "Go",
+          "count": 0
+        },
         {
           "name": "JavaScript",
           "count": 0
@@ -388,24 +422,20 @@
         {
           "name": "CSS",
           "count": 0
-        },
-        {
-          "name": "C#",
-          "count": 0
         }
       ]
     }
   ],
   "companies": [
     {
-      "name": "BVM Web Solutions",
-      "count": 3,
-      "percentage": 13.6,
-      "avgSalary": 1145850,
+      "name": "Oracle",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1315011,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -419,14 +449,14 @@
       ]
     },
     {
-      "name": "MNC's",
+      "name": "IBM",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1322553,
+      "avgSalary": 1270047,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -440,14 +470,14 @@
       ]
     },
     {
-      "name": "Sprinklr",
+      "name": "Siemens",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1047820,
+      "avgSalary": 1024762,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -461,14 +491,14 @@
       ]
     },
     {
-      "name": "Proximity It Solution",
+      "name": "TELUS International",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1137801,
+      "avgSalary": 1176974,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -482,56 +512,14 @@
       ]
     },
     {
-      "name": "AVA Technology",
+      "name": "Exxon Mobil Corporation",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1066520,
+      "avgSalary": 1185877,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Liangtuang Technologies",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1373130,
-      "topTechnologies": [
-        "JavaScript",
-        "Java",
-        "HTML"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Teamified",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1258799,
-      "topTechnologies": [
-        "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -548,11 +536,11 @@
       "name": "athenahealth",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1327958,
+      "avgSalary": 1041931,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -566,14 +554,14 @@
       ]
     },
     {
-      "name": "Pyrotech Workspace Solutions",
+      "name": "Ametek Instruments India",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1206785,
+      "avgSalary": 1138311,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -587,14 +575,14 @@
       ]
     },
     {
-      "name": "Rhombus Infotech",
+      "name": "Sprinklr",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1056273,
+      "avgSalary": 1358242,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -608,14 +596,14 @@
       ]
     },
     {
-      "name": "Coaxial Global Services",
+      "name": "AVA Technology",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1032033,
+      "avgSalary": 1209873,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -629,14 +617,14 @@
       ]
     },
     {
-      "name": "Impressive Star Softwares",
+      "name": "Infomind India",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1111547,
+      "avgSalary": 1234231,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -650,14 +638,14 @@
       ]
     },
     {
-      "name": "Myospaz Software Technologies",
+      "name": "Hexadecimal Software",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1333533,
+      "avgSalary": 1122129,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -671,14 +659,14 @@
       ]
     },
     {
-      "name": "ShreeCom InfoTech India Pvt. Ltd.",
+      "name": "Proximity It Solution",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1107094,
+      "avgSalary": 1150529,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
       ],
       "locations": [
         {
@@ -692,14 +680,56 @@
       ]
     },
     {
-      "name": "Interface Infosoft",
+      "name": "Techkshetra Info Solutions",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1006399,
+      "avgSalary": 1146492,
       "topTechnologies": [
+        "Go",
         "JavaScript",
-        "Java",
-        "HTML"
+        "Java"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Spinks World",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1160003,
+      "topTechnologies": [
+        "Go",
+        "JavaScript",
+        "Java"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Liangtuang Technologies",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1044727,
+      "topTechnologies": [
+        "Go",
+        "JavaScript",
+        "Java"
       ],
       "locations": [
         {
@@ -718,13 +748,13 @@
       "title": "Software Developer",
       "count": 12,
       "percentage": 54.5,
-      "avgSalary": 1253386,
+      "avgSalary": 1380997,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
+        "CSS"
       ],
       "cities": [
         {
@@ -738,16 +768,85 @@
       ]
     },
     {
-      "title": "Software Developer Trainee / Intern",
+      "title": "Software Developer 2",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1317557,
+      "avgSalary": 1113932,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
+        "CSS"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Software developer",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1367594,
+      "topSkills": [
+        "Go",
+        "JavaScript",
+        "Java",
+        "HTML",
+        "CSS"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Software Developer ( C++, Multithreaded Programming)",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1395622,
+      "topSkills": [
+        "Go",
+        "JavaScript",
+        "Java",
+        "HTML",
+        "CSS"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Software Developer High Performance Computing",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1050363,
+      "topSkills": [
+        "Go",
+        "JavaScript",
+        "Java",
+        "HTML",
+        "CSS"
       ],
       "cities": [
         {
@@ -764,13 +863,13 @@
       "title": "Software Developer - Perl",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1152755,
+      "avgSalary": 1086998,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
+        "CSS"
       ],
       "cities": [
         {
@@ -784,16 +883,16 @@
       ]
     },
     {
-      "title": "SOFTWARE DEVELOPER/ENGINEER[.NET]",
+      "title": "Software Developer Intern",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1066837,
+      "avgSalary": 1216854,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
+        "CSS"
       ],
       "cities": [
         {
@@ -807,16 +906,16 @@
       ]
     },
     {
-      "title": "Saas Software Developer",
+      "title": "Software Developer Trainee / Intern",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1161509,
+      "avgSalary": 1128917,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
+        "CSS"
       ],
       "cities": [
         {
@@ -830,85 +929,16 @@
       ]
     },
     {
-      "title": "Software Developer - Java",
+      "title": "Trainee Software Developer Fresher",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1212992,
+      "avgSalary": 1314679,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Software Developer/Engineer ASP.Net Core(MVC",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1245497,
-      "topSkills": [
-        "JavaScript",
-        "Java",
-        "HTML",
-        "CSS",
-        "C#"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Software Developer (C#, WPF)",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1332337,
-      "topSkills": [
-        "JavaScript",
-        "Java",
-        "HTML",
-        "CSS",
-        "C#"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "Senior Software Developer (C#.net, SQL, ERP Software)",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1331288,
-      "topSkills": [
-        "JavaScript",
-        "Java",
-        "HTML",
-        "CSS",
-        "C#"
+        "CSS"
       ],
       "cities": [
         {
@@ -925,13 +955,13 @@
       "title": "Software Engineer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1152515,
+      "avgSalary": 1147247,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
+        "CSS"
       ],
       "cities": [
         {
@@ -948,13 +978,13 @@
       "title": "Full Stack Developer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1285399,
+      "avgSalary": 1321983,
       "topSkills": [
+        "Go",
         "JavaScript",
         "Java",
         "HTML",
-        "CSS",
-        "C#"
+        "CSS"
       ],
       "cities": [
         {
@@ -971,28 +1001,38 @@
   "skills": [
     {
       "name": "JavaScript",
-      "count": 2,
+      "count": 3,
       "category": "Frontend"
     },
     {
       "name": "Java",
+      "count": 3,
+      "category": "Backend"
+    },
+    {
+      "name": "Go",
       "count": 2,
       "category": "Backend"
     },
     {
       "name": "HTML",
-      "count": 1,
+      "count": 2,
       "category": "Frontend"
     },
     {
       "name": "CSS",
-      "count": 1,
+      "count": 2,
       "category": "Frontend"
     },
     {
-      "name": "C#",
+      "name": "PHP",
       "count": 1,
       "category": "Backend"
+    },
+    {
+      "name": "MySQL",
+      "count": 1,
+      "category": "Database"
     },
     {
       "name": "React",
@@ -1010,11 +1050,6 @@
       "category": "Backend"
     },
     {
-      "name": "Go",
-      "count": 1,
-      "category": "Backend"
-    },
-    {
       "name": "PostgreSQL",
       "count": 1,
       "category": "Database"
@@ -1027,52 +1062,44 @@
   ],
   "rawJobs": [
     {
-      "title": "Software Developer",
-      "company": "MNC's",
+      "title": "Software Developer 2",
+      "company": "Oracle",
       "location": "India",
-      "skills": "Fresher with 2021 to 2024 Pass out",
+      "skills": "Experience in implementing container monitoring tools like Prometheus / Grafana, CI / C...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
+      "scraped_at": "2026-01-02T18:39:00.517Z"
+    },
+    {
+      "title": "Software developer",
+      "company": "IBM",
+      "location": "India",
+      "skills": "flexibility to learn new technologies and skills is key as we look to help grow your ca...",
+      "source": "Naukri",
+      "scraped_at": "2026-01-02T18:39:00.518Z"
+    },
+    {
+      "title": "Software Developer ( C++, Multithreaded Programming)",
+      "company": "Siemens",
+      "location": "India",
+      "skills": "Embrace an open feedback culture, driving continuous improvement within the team. To be...",
+      "source": "Naukri",
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "Sprinklr",
+      "company": "TELUS International",
       "location": "India",
-      "skills": "Educational Qualification: BTech in Computer Science from a Tier I college. .  You will...",
+      "skills": "Assist in the creation and maintenance of front-end / back-end tools: You will gain exp...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
-      "title": "Software Developer",
-      "company": "Proximity It Solution",
+      "title": "Software Developer High Performance Computing",
+      "company": "Exxon Mobil Corporation",
       "location": "India",
-      "skills": "The process of creating and maintaining websites. HTML, CSS, JavaScript, management sys...",
+      "skills": "Skills and Qualifications . Bachelors or Masters degree in Computer Science, Software E...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "AVA Technology",
-      "location": "India",
-      "skills": ". Disclaimer: This job description has been sourced from a public domain and may have b...",
-      "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
-    },
-    {
-      "title": "Software Developer Trainee / Intern",
-      "company": "Liangtuang Technologies",
-      "location": "India",
-      "skills": "",
-      "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "Teamified",
-      "location": "India",
-      "skills": "Participate in code reviews and contribute to team knowledge sharing. Identify and reso...",
-      "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer - Perl",
@@ -1080,111 +1107,119 @@
       "location": "India",
       "skills": "Bachelor s Degree or equivalentContinuously improve system performance, security, and s...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "Pyrotech Workspace Solutions",
+      "company": "Ametek Instruments India",
       "location": "India",
-      "skills": "Pyrotech Workspace Solutions Pvt. Ltd is looking for Software Developer to join our dyn...",
+      "skills": "Develop ergonomic user interfaces for application software operating on Windows;   ...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "BVM Web Solutions",
+      "company": "Sprinklr",
       "location": "India",
-      "skills": "Disclaimer: This job description has been sourced from a public domain and may have bee...",
+      "skills": "Educational Qualification: BTech in Computer Science from a Tier I college. .  You will...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.746Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "Rhombus Infotech",
+      "company": "AVA Technology",
       "location": "India",
-      "skills": "RHOMBUS INFOTECH PVT LTD is looking for Software Developer to join our dynamic team and...",
+      "skills": ". Disclaimer: This job description has been sourced from a public domain and may have b...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "BVM Web Solutions",
+      "company": "Infomind India",
       "location": "India",
-      "skills": "BVM Web Solutions Private Limited is looking for Software Developer to join our dynamic...",
+      "skills": ". Bachelors degree in Computer Science / IT/ECE or higher Experience of 0 to 3 years in...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "Coaxial Global Services",
+      "company": "Hexadecimal Software",
+      "location": "India",
+      "skills": "",
+      "source": "Naukri",
+      "scraped_at": "2026-01-02T18:39:00.518Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Proximity It Solution",
+      "location": "India",
+      "skills": "The process of creating and maintaining websites. HTML, CSS, JavaScript, management sys...",
+      "source": "Naukri",
+      "scraped_at": "2026-01-02T18:39:00.518Z"
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Techkshetra Info Solutions",
+      "location": "India",
+      "skills": "",
+      "source": "Naukri",
+      "scraped_at": "2026-01-02T18:39:00.518Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Spinks World",
       "location": "India",
       "skills": "Modifying software to fix errors, adapt it to new hardware, improve its performance, ...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
+    },
+    {
+      "title": "Software Developer Trainee / Intern",
+      "company": "Liangtuang Technologies",
+      "location": "India",
+      "skills": "",
+      "source": "Naukri",
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "Impressive Star Softwares",
+      "company": "Preintelligence",
       "location": "India",
-      "skills": "University Degree in any Discipline(B.Tech/MCA/Bachelor s degree in Science/Maths/B.C...",
+      "skills": "Education: Bsc, Msc, BCA, MCA, BE        Responsibilities:     Continuously upgrade kn...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
-      "title": "SOFTWARE DEVELOPER/ENGINEER[.NET]",
-      "company": "Myospaz Software Technologies",
+      "title": "Trainee Software Developer Fresher",
+      "company": "Pace Softronix",
       "location": "India",
-      "skills": "Knowledge of Asp.net and VB.Net with C#.net using AJAX and MVC and SQL.   Strong Kn...",
+      "skills": "POST : Trainee Software Developer Fresher NO. OF VACANCY : 3 CITY : Vadodara DETAIL : a...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
-    },
-    {
-      "title": "Saas Software Developer",
-      "company": "BVM Web Solutions",
-      "location": "India",
-      "skills": "BVM Web Solutions Private Limited is looking for Saas Software Developer to join our dy...",
-      "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Developer",
-      "company": "ShreeCom InfoTech India Pvt. Ltd.",
+      "company": "Le Jensoft",
       "location": "India",
-      "skills": ". Bachelors degree in Information Technology or related field . 2 years of overall IT e...",
+      "skills": "Skills Required  Proficient in PHP, Javascript, MySQL, AJAX, jQuery, CSS and HTML . Cos...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
-      "title": "Software Developer - Java",
-      "company": "Interface Infosoft",
+      "title": "Software Developer",
+      "company": "MNC's",
       "location": "India",
-      "skills": "He holds Bachelor of Engineering from VNIT, Nagpur and Master of Technology from IIT, R...",
+      "skills": "Fresher with 2021 to 2024 Pass out",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
-      "title": "Software Developer/Engineer ASP.Net Core(MVC",
-      "company": "Anvitechsys",
+      "title": "Software Developer",
+      "company": "Applied Concepts Limited",
       "location": "India",
-      "skills": "AnviTechSys is looking for Software Developer/Engineer ASP.Net Core(MVC to join our dyn...",
+      "skills": "ASP.NET Developer (Fresher) to join our growing software development team at Applied Co...",
       "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
-    },
-    {
-      "title": "Software Developer (C#, WPF)",
-      "company": "Utthunga Technologies",
-      "location": "India",
-      "skills": "We are seeking a skilled and detail-oriented Software Engineer with strong experience i...",
-      "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
-    },
-    {
-      "title": "Senior Software Developer (C#.net, SQL, ERP Software)",
-      "company": "Index Infotech India",
-      "location": "India",
-      "skills": "Able to work in US Shifts Experience in SQL DB Complex Queries (Triggers, Cursors and S...",
-      "source": "Naukri",
-      "scraped_at": "2026-01-02T12:52:38.747Z"
+      "scraped_at": "2026-01-02T18:39:00.518Z"
     },
     {
       "title": "Software Engineer",
@@ -1192,7 +1227,7 @@
       "location": "Bangalore",
       "skills": "JavaScript, React, Node.js",
       "source": "LinkedIn",
-      "scraped_at": "2026-01-02T12:52:38.855Z"
+      "scraped_at": "2026-01-02T18:39:00.576Z"
     },
     {
       "title": "Full Stack Developer",
@@ -1200,7 +1235,7 @@
       "location": "Mumbai",
       "skills": "Python, Django, PostgreSQL",
       "source": "LinkedIn",
-      "scraped_at": "2026-01-02T12:52:38.855Z"
+      "scraped_at": "2026-01-02T18:39:00.577Z"
     }
   ]
 }
