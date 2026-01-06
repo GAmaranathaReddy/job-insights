@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-01-06T02:00:46.710Z",
+  "total_jobs": 2,
+  "jobs": [
+    {
+      "title": "Software Engineer",
+      "company": "Tech Company",
+      "location": "Bangalore",
+      "skills": "JavaScript, React, Node.js",
+      "source": "LinkedIn",
+      "scraped_at": "2026-01-06T02:00:46.704Z"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Startup Inc",
+      "location": "Mumbai",
+      "skills": "Python, Django, PostgreSQL",
+      "source": "LinkedIn",
+      "scraped_at": "2026-01-06T02:00:46.704Z"
+    }
+  ],
+  "sources": [
+    "Naukri",
+    "LinkedIn"
+  ],
+  "scraping_duration": 17573
+}
