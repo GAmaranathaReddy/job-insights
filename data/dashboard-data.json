@@ -2,8 +2,8 @@
   "summary": {
     "totalJobs": 22,
     "totalCompanies": 20,
-    "totalSkills": 8,
-    "lastUpdated": "2026-01-21T02:05:01.551Z",
+    "totalSkills": 9,
+    "lastUpdated": "2026-01-21T06:45:59.782Z",
     "dataVersion": "2.0.0"
   },
   "technologies": [
@@ -11,7 +11,7 @@
       "name": "React",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 805790,
+      "avgSalary": 1279586,
       "cities": [
         {
           "name": "Bangalore",
@@ -41,7 +41,67 @@
       "name": "Node.js",
       "count": 2,
       "percentage": 9.1,
-      "avgSalary": 894867,
+      "avgSalary": 1274781,
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ],
+      "experienceLevels": [
+        {
+          "level": "1-3 years",
+          "count": 0
+        },
+        {
+          "level": "4-6 years",
+          "count": 0
+        },
+        {
+          "level": "7+ years",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Go",
+      "count": 2,
+      "percentage": 9.1,
+      "avgSalary": 857501,
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ],
+      "experienceLevels": [
+        {
+          "level": "1-3 years",
+          "count": 0
+        },
+        {
+          "level": "4-6 years",
+          "count": 0
+        },
+        {
+          "level": "7+ years",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "PHP",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1136229,
       "cities": [
         {
           "name": "Bangalore",
@@ -71,7 +131,7 @@
       "name": "JavaScript",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1048020,
+      "avgSalary": 1035598,
       "cities": [
         {
           "name": "Bangalore",
@@ -101,7 +161,7 @@
       "name": "Java",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1044402,
+      "avgSalary": 1241725,
       "cities": [
         {
           "name": "Bangalore",
@@ -131,37 +191,7 @@
       "name": "Python",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 809061,
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ],
-      "experienceLevels": [
-        {
-          "level": "1-3 years",
-          "count": 0
-        },
-        {
-          "level": "4-6 years",
-          "count": 0
-        },
-        {
-          "level": "7+ years",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Go",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1087231,
+      "avgSalary": 808304,
       "cities": [
         {
           "name": "Bangalore",
@@ -191,7 +221,7 @@
       "name": "PostgreSQL",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1293703,
+      "avgSalary": 1201609,
       "cities": [
         {
           "name": "Bangalore",
@@ -221,7 +251,7 @@
       "name": "Django",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 973327,
+      "avgSalary": 1140064,
       "cities": [
         {
           "name": "Bangalore",
@@ -253,7 +283,7 @@
       "name": "Bangalore",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1094522,
+      "avgSalary": 1122684,
       "topTechnologies": [
         {
           "name": "React",
@@ -264,15 +294,15 @@
           "count": 0
         },
         {
+          "name": "PHP",
+          "count": 0
+        },
+        {
+          "name": "Go",
+          "count": 0
+        },
+        {
           "name": "JavaScript",
-          "count": 0
-        },
-        {
-          "name": "Java",
-          "count": 0
-        },
-        {
-          "name": "Python",
           "count": 0
         }
       ]
@@ -281,7 +311,7 @@
       "name": "Mumbai",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 953581,
+      "avgSalary": 1073538,
       "topTechnologies": [
         {
           "name": "React",
@@ -292,15 +322,15 @@
           "count": 0
         },
         {
+          "name": "PHP",
+          "count": 0
+        },
+        {
+          "name": "Go",
+          "count": 0
+        },
+        {
           "name": "JavaScript",
-          "count": 0
-        },
-        {
-          "name": "Java",
-          "count": 0
-        },
-        {
-          "name": "Python",
           "count": 0
         }
       ]
@@ -311,11 +341,11 @@
       "name": "BVM Web Solutions",
       "count": 3,
       "percentage": 13.6,
-      "avgSalary": 1038996,
+      "avgSalary": 1346968,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -329,14 +359,14 @@
       ]
     },
     {
-      "name": "MNC",
+      "name": "Katina Skills",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1085645,
+      "avgSalary": 1319294,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -353,11 +383,11 @@
       "name": "Sprinklr",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1137638,
+      "avgSalary": 1093139,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -374,11 +404,11 @@
       "name": "Mobilise App Lab Limited",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1383614,
+      "avgSalary": 1306473,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -395,11 +425,11 @@
       "name": "Binary Republik",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1296143,
+      "avgSalary": 1080732,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -416,32 +446,11 @@
       "name": "Liangtuang Technologies",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1216853,
+      "avgSalary": 1155157,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
-      ],
-      "locations": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Brigosha Technologies",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1375596,
-      "topTechnologies": [
-        "React",
-        "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -458,11 +467,11 @@
       "name": "Pyrotech Workspace Solutions",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1119505,
+      "avgSalary": 1173731,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -479,11 +488,11 @@
       "name": "Siemens",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1216120,
+      "avgSalary": 1051846,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -500,11 +509,11 @@
       "name": "Rhombus Infotech",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1112850,
+      "avgSalary": 1344455,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -521,11 +530,11 @@
       "name": "H K Jewels",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1275134,
+      "avgSalary": 1077256,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -542,11 +551,11 @@
       "name": "Coaxial Global Services",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1272466,
+      "avgSalary": 1262949,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -563,11 +572,11 @@
       "name": "Impressive Star Softwares",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1042889,
+      "avgSalary": 1187909,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -584,11 +593,11 @@
       "name": "Oracle",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1123048,
+      "avgSalary": 1064424,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
       ],
       "locations": [
         {
@@ -605,11 +614,32 @@
       "name": "ShreeCom InfoTech India Pvt. Ltd.",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1158889,
+      "avgSalary": 1131004,
       "topTechnologies": [
         "React",
         "Node.js",
-        "JavaScript"
+        "PHP"
+      ],
+      "locations": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Interface Infosoft",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1330166,
+      "topTechnologies": [
+        "React",
+        "Node.js",
+        "PHP"
       ],
       "locations": [
         {
@@ -626,15 +656,38 @@
   "jobTitles": [
     {
       "title": "Software Developer",
-      "count": 10,
-      "percentage": 45.5,
-      "avgSalary": 1201642,
+      "count": 9,
+      "percentage": 40.9,
+      "avgSalary": 1114619,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Graduate Engineer, Software Developers / Grow with Google RTD Program",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1088004,
+      "topSkills": [
+        "React",
+        "Node.js",
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -651,13 +704,13 @@
       "title": "Junior Software Developer / AI Assisted Development -Vibe Coding",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1361283,
+      "avgSalary": 1308953,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -674,13 +727,13 @@
       "title": "Software Developer Intern/Fresher",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1187047,
+      "avgSalary": 1240306,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -697,36 +750,13 @@
       "title": "Software Developer Trainee / Intern",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1321982,
+      "avgSalary": 1047743,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
-      ],
-      "cities": [
-        {
-          "name": "Bangalore",
-          "count": 0
-        },
-        {
-          "name": "Mumbai",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "title": "EV Charger Software Developer",
-      "count": 1,
-      "percentage": 4.5,
-      "avgSalary": 1277379,
-      "topSkills": [
-        "React",
-        "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -743,13 +773,13 @@
       "title": "C++ Software Developer/Engineer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1266564,
+      "avgSalary": 1064630,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -766,13 +796,13 @@
       "title": "Saas Software Developer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1184474,
+      "avgSalary": 1198157,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -789,13 +819,13 @@
       "title": "Software Developer 5",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1193090,
+      "avgSalary": 1043450,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -812,13 +842,13 @@
       "title": "Software Developer - Java",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1023073,
+      "avgSalary": 1197179,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -835,13 +865,13 @@
       "title": "Software Developer (C#, WPF)",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1366722,
+      "avgSalary": 1011723,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -858,13 +888,36 @@
       "title": "Senior Software Developer (C#.net, SQL, ERP Software)",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1250661,
+      "avgSalary": 1353450,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
+      ],
+      "cities": [
+        {
+          "name": "Bangalore",
+          "count": 0
+        },
+        {
+          "name": "Mumbai",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "title": "Hiring Software Developer -Trainee - Freshers - Fulltime Role",
+      "count": 1,
+      "percentage": 4.5,
+      "avgSalary": 1206133,
+      "topSkills": [
+        "React",
+        "Node.js",
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -881,13 +934,13 @@
       "title": "Software Engineer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1262726,
+      "avgSalary": 1259040,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -904,13 +957,13 @@
       "title": "Full Stack Developer",
       "count": 1,
       "percentage": 4.5,
-      "avgSalary": 1291263,
+      "avgSalary": 1129156,
       "topSkills": [
         "React",
         "Node.js",
-        "JavaScript",
-        "Java",
-        "Python"
+        "PHP",
+        "Go",
+        "JavaScript"
       ],
       "cities": [
         {
@@ -936,6 +989,16 @@
       "category": "Backend"
     },
     {
+      "name": "Go",
+      "count": 2,
+      "category": "Backend"
+    },
+    {
+      "name": "PHP",
+      "count": 1,
+      "category": "Backend"
+    },
+    {
       "name": "JavaScript",
       "count": 1,
       "category": "Frontend"
@@ -947,11 +1010,6 @@
     },
     {
       "name": "Python",
-      "count": 1,
-      "category": "Backend"
-    },
-    {
-      "name": "Go",
       "count": 1,
       "category": "Backend"
     },
@@ -968,12 +1026,12 @@
   ],
   "rawJobs": [
     {
-      "title": "Software Developer",
-      "company": "MNC",
+      "title": "Graduate Engineer, Software Developers / Grow with Google RTD Program",
+      "company": "Katina Skills",
       "location": "India",
-      "skills": "We are seeking a passionate and skilled Software Engineer to join our dynamic team. The...",
+      "skills": "5 - 8 LPA Tier 2 CitiesBangalore, Pune, Hyderabad, Chennai peripheral locations). 623 L...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -981,7 +1039,7 @@
       "location": "India",
       "skills": "Educational Qualification: BTech in Computer Science from a Tier I college. .  You will...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Junior Software Developer / AI Assisted Development -Vibe Coding",
@@ -989,7 +1047,7 @@
       "location": "India",
       "skills": "We are looking for fresh BTech AI graduates only who are passionate about software deve...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer Intern/Fresher",
@@ -997,7 +1055,7 @@
       "location": "India",
       "skills": "",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer Trainee / Intern",
@@ -1005,15 +1063,7 @@
       "location": "India",
       "skills": "",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
-    },
-    {
-      "title": "EV Charger Software Developer",
-      "company": "Brigosha Technologies",
-      "location": "India",
-      "skills": "Familiarity with industry-standard protocols and interfaces. Disclaimer: This job descr...",
-      "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1021,7 +1071,7 @@
       "location": "India",
       "skills": "Pyrotech Workspace Solutions Pvt. Ltd is looking for Software Developer to join our dyn...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1029,7 +1079,7 @@
       "location": "India",
       "skills": "Disclaimer: This job description has been sourced from a public domain and may have bee...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "C++ Software Developer/Engineer",
@@ -1037,7 +1087,7 @@
       "location": "India",
       "skills": "Youll make an impact by:Responsible for implementing and maintaining the windows applic...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1045,7 +1095,7 @@
       "location": "India",
       "skills": "RHOMBUS INFOTECH PVT LTD is looking for Software Developer to join our dynamic team and...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1053,7 +1103,7 @@
       "location": "India",
       "skills": "BVM Web Solutions Private Limited is looking for Software Developer to join our dynamic...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1061,7 +1111,7 @@
       "location": "India",
       "skills": "Experience in developing web applications Experience in technologies Reactjs, Node.js, ...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1069,7 +1119,7 @@
       "location": "India",
       "skills": "Modifying software to fix errors, adapt it to new hardware, improve its performance, ...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1077,7 +1127,7 @@
       "location": "India",
       "skills": "University Degree in any Discipline(B.Tech/MCA/Bachelor s degree in Science/Maths/B.C...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Saas Software Developer",
@@ -1085,7 +1135,7 @@
       "location": "India",
       "skills": "BVM Web Solutions Private Limited is looking for Saas Software Developer to join our dy...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer 5",
@@ -1093,7 +1143,7 @@
       "location": "India",
       "skills": "We are seeking an exceptional Software Testing Architect to spearhead the technical ev...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer",
@@ -1101,7 +1151,7 @@
       "location": "India",
       "skills": ". Bachelors degree in Information Technology or related field . 2 years of overall IT e...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer - Java",
@@ -1109,7 +1159,7 @@
       "location": "India",
       "skills": "He holds Bachelor of Engineering from VNIT, Nagpur and Master of Technology from IIT, R...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.475Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Developer (C#, WPF)",
@@ -1117,7 +1167,7 @@
       "location": "India",
       "skills": "We are seeking a skilled and detail-oriented Software Engineer with strong experience i...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.476Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Senior Software Developer (C#.net, SQL, ERP Software)",
@@ -1125,7 +1175,15 @@
       "location": "India",
       "skills": "Able to work in US Shifts Experience in SQL DB Complex Queries (Triggers, Cursors and S...",
       "source": "Naukri",
-      "scraped_at": "2026-01-21T02:05:01.476Z"
+      "scraped_at": "2026-01-21T06:45:59.711Z"
+    },
+    {
+      "title": "Hiring Software Developer -Trainee - Freshers - Fulltime Role",
+      "company": "Keyideas Infotech",
+      "location": "India",
+      "skills": "Got Six months of Industry experience in PHP / Dotnet Technology is preferred",
+      "source": "Naukri",
+      "scraped_at": "2026-01-21T06:45:59.711Z"
     },
     {
       "title": "Software Engineer",
@@ -1133,7 +1191,7 @@
       "location": "Bangalore",
       "skills": "JavaScript, React, Node.js",
       "source": "LinkedIn",
-      "scraped_at": "2026-01-21T02:05:01.543Z"
+      "scraped_at": "2026-01-21T06:45:59.774Z"
     },
     {
       "title": "Full Stack Developer",
@@ -1141,7 +1199,7 @@
       "location": "Mumbai",
       "skills": "Python, Django, PostgreSQL",
       "source": "LinkedIn",
-      "scraped_at": "2026-01-21T02:05:01.543Z"
+      "scraped_at": "2026-01-21T06:45:59.775Z"
     }
   ]
 }
