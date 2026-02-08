@@ -1,54 +1,22 @@
 {
-  "timestamp": "2026-02-08T02:50:23.749Z",
+  "timestamp": "2026-02-08T07:00:02.949Z",
   "total_jobs": 22,
   "jobs": [
-    {
-      "title": "Associate Software Developer",
-      "company": "Cyntexa",
-      "location": "India",
-      "skills": "Prior experience or internships in software development is a plus bachelors degree in C...",
-      "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "athenahealth",
-      "location": "India",
-      "skills": "The position requires 1+ years of internship or working experience in software engineer...",
-      "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
-    },
-    {
-      "title": "Software Developer (Full Stack)",
-      "company": "MSCI Services",
-      "location": "India",
-      "skills": "Your skills and experience that will help you excel . AI-Driven Development : CursorAI,...",
-      "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
-    },
-    {
-      "title": "Software Developer",
-      "company": "S&P Global Market Intelligence",
-      "location": "India",
-      "skills": "The Team:The Data Transformation team is responsible for driving key automation project...",
-      "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
-    },
-    {
-      "title": "Software Developer High Performance Computing",
-      "company": "Exxon Mobil Corporation",
-      "location": "India",
-      "skills": "Skills and Qualifications . Bachelors or Masters degree in Computer Science, Software E...",
-      "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
-    },
     {
       "title": "Software Developer",
       "company": "MNC",
       "location": "India",
       "skills": "We are seeking a passionate and skilled Software Engineer to join our dynamic team. The...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
+    },
+    {
+      "title": "Software Developer (Hiring Freshers) !!!! WALK IN !!!!",
+      "company": "Webilesk Infotech",
+      "location": "India",
+      "skills": "Preferred candidate profile .",
+      "source": "Naukri",
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer Intern / Trainee",
@@ -56,7 +24,7 @@
       "location": "India",
       "skills": "Summary. Intern Requirements . A final year Student or Recent Graduate in Computer Scie...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer Intern/ Trainee",
@@ -64,15 +32,15 @@
       "location": "India",
       "skills": "Graduation or Post Graduation in IT . Intern Requirements . A final year Student or Rec...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer",
-      "company": "Easy Refer In",
+      "company": "Apps Business It Solutions",
       "location": "India",
-      "skills": "Location: Bengaluru, Karnataka, India (onsite)   Job Title: Software Developer - Full ...",
+      "skills": "Portfolio: A GitHub profile featuring at least 23 original projects is often considered...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer Intern/Fresher",
@@ -80,7 +48,7 @@
       "location": "India",
       "skills": "",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer Trainee / Intern",
@@ -88,15 +56,23 @@
       "location": "India",
       "skills": "",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
-      "title": "Junior Software Developer / AI Assisted Development -Vibe Coding",
-      "company": "Mobilise App Lab Limited",
+      "title": "Software Developer",
+      "company": "athenahealth",
       "location": "India",
-      "skills": "We are looking for fresh BTech AI graduates only This role is perfect for freshers who ...",
+      "skills": "The position requires 1+ years of internship or working experience in software engineer...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Specialise Products",
+      "location": "India",
+      "skills": "Role Overview . We are looking for a motivated Software Developer (Graduate Trainee) to...",
+      "source": "Naukri",
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer",
@@ -104,7 +80,7 @@
       "location": "India",
       "skills": "Pyrotech Workspace Solutions Pvt. Ltd is looking for Software Developer to join our dyn...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer",
@@ -112,7 +88,7 @@
       "location": "India",
       "skills": "RHOMBUS INFOTECH PVT LTD is looking for Software Developer to join our dynamic team and...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer",
@@ -120,7 +96,7 @@
       "location": "India",
       "skills": "Strong programming experience in Java with hands on development workExperience building...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer",
@@ -128,15 +104,31 @@
       "location": "India",
       "skills": "University Degree in any Discipline(B.Tech/MCA/Bachelor s degree in Science/Maths/B.C...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
-      "title": "Software Developer, AI",
-      "company": "Endpoint Clinical",
+      "title": "Software Developer",
+      "company": "Barclays",
       "location": "India",
-      "skills": "New AI driven solution ideation: Keep abreast of the latest developments in the AI worl...",
+      "skills": "Strong programming experience in Java with hands on development workExperience building...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
+    },
+    {
+      "title": "Saas Software Developer",
+      "company": "BVM Web Solutions",
+      "location": "India",
+      "skills": "BVM Web Solutions Private Limited is looking for Saas Software Developer to join our dy...",
+      "source": "Naukri",
+      "scraped_at": "2026-02-08T07:00:02.885Z"
+    },
+    {
+      "title": "Software Developer 5",
+      "company": "Oracle",
+      "location": "India",
+      "skills": "We are seeking an exceptional Software Testing Architect to spearhead the technical ev...",
+      "source": "Naukri",
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer",
@@ -144,7 +136,7 @@
       "location": "India",
       "skills": ". Bachelors degree in Information Technology or related field . 2 years of overall IT e...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Developer - Java",
@@ -152,7 +144,15 @@
       "location": "India",
       "skills": "He holds Bachelor of Engineering from VNIT, Nagpur and Master of Technology from IIT, R...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
+    },
+    {
+      "title": "Software Developer (C#, WPF)",
+      "company": "Utthunga Technologies",
+      "location": "India",
+      "skills": "We are seeking a skilled and detail-oriented Software Engineer with strong experience i...",
+      "source": "Naukri",
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Senior Software Developer (C#.net, SQL, ERP Software)",
@@ -160,7 +160,7 @@
       "location": "India",
       "skills": "Able to work in US Shifts Experience in SQL DB Complex Queries (Triggers, Cursors and S...",
       "source": "Naukri",
-      "scraped_at": "2026-02-08T02:50:23.672Z"
+      "scraped_at": "2026-02-08T07:00:02.885Z"
     },
     {
       "title": "Software Engineer",
@@ -168,7 +168,7 @@
       "location": "Bangalore",
       "skills": "JavaScript, React, Node.js",
       "source": "LinkedIn",
-      "scraped_at": "2026-02-08T02:50:23.742Z"
+      "scraped_at": "2026-02-08T07:00:02.942Z"
     },
     {
       "title": "Full Stack Developer",
@@ -176,12 +176,12 @@
       "location": "Mumbai",
       "skills": "Python, Django, PostgreSQL",
       "source": "LinkedIn",
-      "scraped_at": "2026-02-08T02:50:23.743Z"
+      "scraped_at": "2026-02-08T07:00:02.942Z"
     }
   ],
   "sources": [
     "Naukri",
     "LinkedIn"
   ],
-  "scraping_duration": 4664
+  "scraping_duration": 4012
 }
